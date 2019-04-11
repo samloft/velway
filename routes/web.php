@@ -12,4 +12,13 @@
 */
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('services', 'ServicesController@index')->name('services');
 Route::get('about', 'AboutController@index')->name('about');
+
+Route::group(['prefix' => 'news'], function() {
+    Route::get('/', 'NewsController@index')->name('news');
+});
+
+Route::group(['prefix' => 'contact'], function() {
+    Route::get('/', 'ContactController@index')->name('contact');
+});
