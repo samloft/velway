@@ -4,3 +4,7 @@ button.btn.btn-primary {
   color: $white;
   border-radius: 20px;
 }
+
+button:hover {
+  opacity: 0.8;
+}
