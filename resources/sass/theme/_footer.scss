@@ -1,0 +1,21 @@
+footer.footer {
+  border-top: 1px solid rgba(0, 0, 0, 1.0);
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer.footer .nav__footer {
+  margin-bottom: 20px;
+}
+
+footer.footer .contact__footer span {
+  display: block;
+  line-height: 30px;
+}
+
+footer.copyright {
+  color: $white;
+  background-color: $primary-color;
+  padding: 10px 5px;
+  text-align: center;
+}

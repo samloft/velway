@@ -1,0 +1,16 @@
+.heading__white {
+  padding-bottom: 25px;
+  margin-bottom: 5px;
+
+  &:after {
+    display: block;
+    clear: both;
+    content: "";
+    position: relative;
+    height: 5px;
+    width: 30px;
+    border-bottom: 4px solid $white;
+    border-radius: 0.05rem;
+    margin: 20px 0 0;
+  }
+}

@@ -8,7 +8,11 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
+// Theme
+@import 'theme/main';
+@import 'theme/navigation';
+@import 'theme/sections';
+@import 'theme/footer';
+@import 'theme/images';
+@import 'theme/buttons';
+@import 'theme/headings';
