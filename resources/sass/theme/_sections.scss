@@ -2,12 +2,12 @@
   background-color: $primary-color;
   color: $white;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .section__3-column {
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   text-align: center;
 
   img {
@@ -32,12 +32,16 @@
       margin: 20px auto 0;
     }
   }
+
+  button {
+    margin-bottom: 20px;
+  }
 }
 
 .section__customers {
   background-color: $primary-color;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   text-align: center;
 
   .row {
@@ -47,5 +51,6 @@
 
   img {
     height: 50px;
+    margin-bottom: 10px;
   }
 }

@@ -1,5 +1,7 @@
 @extends('layout.master')
 
+@section('page.title', 'We do something!')
+
 @section('content')
     <img src="{{ asset('images/header-bg.png') }}" class="header-bg" alt="velway-header">
 

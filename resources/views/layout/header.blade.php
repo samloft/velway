@@ -10,20 +10,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item {{ setActive('home') }}">
                     <a class="nav-link" href="{{ route('home') }}"><span>{{ __('Home') }}</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">{{ __('Services') }}</a>
+                    <a class="nav-link" href="#"><span>{{ __('Services') }}</span></a>
+                </li>
+                <li class="nav-item {{ setActive('about') }}">
+                    <a class="nav-link" href="{{ route('about') }}"><span>{{ __('About Us') }}</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">{{ __('About Us') }}</a>
+                    <a class="nav-link" href="#"><span>{{ __('News') }}</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">{{ __('News') }}</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">{{ __('Contact Us') }}</a>
+                    <a class="nav-link" href="#"><span>{{ __('Contact Us') }}</span></a>
                 </li>
             </ul>
         </div>
