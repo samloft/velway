@@ -1,12 +1,16 @@
 <footer class="footer">
     <div class="container">
         <div class="nav__footer">
-            Home | Services | About Us | News | Contact Us
+            <a href="{{ route('home') }}">{{ ('Home') }}</a> |
+            <a href="{{ route('services') }}">{{ ('Services') }}</a> |
+            <a href="{{ route('about') }}">{{ ('About Us') }}</a> |
+            <a href="{{ route('news') }}">{{ ('News') }}</a> |
+            <a href="{{ route('contact') }}">{{ ('Contact Us') }}</a>
         </div>
 
         <div class="contact__footer">
-            <span>Email: info@velway.com | Phone: 0123 456 789 | Fax: 0123 456 789</span>
-            <span>Location: Velway, Landsberg, Lichfield Road Ind. Est., Tamworth, Staffordshire B79 7XB.</span>
+            <span>{!! ('Email: <a href="MAILTO:info@velway.co.uk">info@velway.com</a> | Phone: 0123 456 789 | Fax: 0123 456 789') !!}</span>
+            <span>{{ ('Location: Velway, Landsberg, Lichfield Road Ind. Est., Tamworth, Staffordshire B79 7XB.') }}</span>
         </div>
 
         <div class="social__footer">
