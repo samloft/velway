@@ -7,21 +7,21 @@
 
         <div class="container section__3-column">
             <div class="row">
-                <div class="col">
+                <div class="col-lg-4">
                     <img src="{{ asset('images/heading-record.png') }}" alt="Record">
 
                     <h4>{{ __('Record') }}</h4>
 
                     <p>{{ __('Our helpdesk uses a CAFM system and processes developed and improved over the last 5 years to accurately record all levels of work instruction both reactive and plan as well as statutory compliance and warranties.') }}</p>
                 </div>
-                <div class="col">
+                <div class="col-lg-4">
                     <img src="{{ asset('images/heading-manage.png') }}" alt="Manage">
 
                     <h4>{{ __('Manage') }}</h4>
 
                     <p>{{ __('All works are managed through their lifecycle, initially through the helpdesk team then via our Facility managers. We ensure all works are completed to the customer satisfaction or to ensure compliance.') }}</p>
                 </div>
-                <div class="col">
+                <div class="col-lg-4">
                     <img src="{{ asset('images/heading-document.png') }}" alt="Document">
 
                     <h4>{{ __('Document') }}</h4>
@@ -35,14 +35,14 @@
     <div class="section__info">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-lg-6">
                     <h3 class="heading__white">The Vel<img src="{{ asset('images/icon.png') }}" class="icon" alt="->">way</h3>
 
                     <p>{{ __('We build partnerships will all stakeholders, ensuring mutually dependent relationships with both clients and service partners – we don’t acknowledge the old “Master – slave” mentality.') }}</p>
                     <p>{{ __('All costs are benchmarked and integrated by our teams before any charges are passed to our client.') }}
                 </div>
                 <div class="col text-center">
-                    <img src="{{ asset('images/the-velway.png') }}" alt="The Velway" height="200">
+                    <img class="m-200 img-fluid" src="{{ asset('images/the-velway.png') }}" alt="The Velway">
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
 
     <div class="container section__3-column">
         <div class="row">
-            <div class="col">
+            <div class="col-lg-4">
                 <img src="{{ asset('images/handy-man.png') }}" alt="Electrician">
 
                 <h4>{{ __('I need an electrician') }}</h4>
@@ -59,7 +59,7 @@
 
                 <button class="btn btn-primary">{{ __('Find Out More') }}</button>
             </div>
-            <div class="col">
+            <div class="col-lg-4">
                 <img src="{{ asset('images/handy-man.png') }}" alt="Plumber">
 
                 <h4>{{ __('I need an plumber') }}</h4>
@@ -68,7 +68,7 @@
 
                 <button class="btn btn-primary">{{ __('Find Out More') }}</button>
             </div>
-            <div class="col">
+            <div class="col-lg-4">
                 <img src="{{ asset('images/handy-man.png') }}" alt="Engineer">
 
                 <h4>{{ __('I need an Heating Engineer') }}</h4>

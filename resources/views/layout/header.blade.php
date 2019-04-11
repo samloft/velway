@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md mb-4">
+<nav class="navbar navbar-light navbar-expand-md mb-4">
     <div class="container">
         <a class="navbar-brand" href="{{ route('home') }}">
             <img class="logo" src="{{ asset('images/logo.png') }}" alt="{{ env('APP_NAME') }}">
