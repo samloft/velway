@@ -1,7 +1,7 @@
 body {
   color: $font-color;
   background-color: $white;
-  font-family: 'Open Sans', sans-serif;
+  //font-family: 'Open Sans', sans-serif;
 }
 
 .header-bg {
@@ -11,6 +11,10 @@ body {
 
 a:hover{
   text-decoration: none;
+}
+
+.off-white {
+  background-color: rgba(250, 248, 247, 1.0);
 }
 
 
