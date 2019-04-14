@@ -34,7 +34,7 @@ class ContactController extends Controller
         $message = Mail::to('sam@devloft.co.uk')->send(new Contact($request));
 
         if ($message) {
-            return back()->with('success', 'Your message has been sent, we will respond as soon as possible');
+            return back()->with('mail.success', 'Your message has been sent, we will respond as soon as possible');
         }
         return back()->with('error', 'Your message could not be sent, please try again');
     }

@@ -56,8 +56,8 @@
                     <span>{{ __('Lichfield Road Ind. Est., Tamworth,') }}</span>
                     <span>{{ __('Staffordshire B79 7XB.') }}</span>
 
-                    <span class="mt-5"><a href="#"
-                                          class="link__dark link__underline">{{ __('Where to find us') }}</a></span>
+                    <span class="mt-5"><a href="https://www.google.com/maps/place/Landsberg,+Tamworth+B79+7XB/@52.6399783,-1.7160993,17z/data=!3m1!4b1!4m5!3m4!1s0x4870a90cd02cc073:0xccb818798cc352a9!8m2!3d52.6399751!4d-1.7139106"
+                                          target="_blank" class="link__dark link__underline">{{ __('Where to find us') }}</a></span>
                 </div>
             </div>
         </div>
