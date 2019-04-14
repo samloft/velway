@@ -4,8 +4,8 @@
     </div>
 @endif
 
-@if(session('mail.success'))
+@if(session('success'))
     <div class="alert alert-success">
-        {{ session('mail.success') }}
+        {{ session('success') }}
     </div>
 @endif
