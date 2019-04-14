@@ -21,4 +21,5 @@ Route::group(['prefix' => 'news'], function() {
 
 Route::group(['prefix' => 'contact'], function() {
     Route::get('/', 'ContactController@index')->name('contact');
+    Route::post('send', 'ContactController@store')->name('contact.send');
 });
