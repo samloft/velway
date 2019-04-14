@@ -36,6 +36,10 @@
   button {
     margin-bottom: 20px;
   }
+  .block__info {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .section__customers {
@@ -103,6 +107,7 @@
 
   h4 {
     margin-top: 20px;
+    font-weight: 700;
 
     &:after {
       display: block;

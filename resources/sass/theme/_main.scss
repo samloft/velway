@@ -1,12 +1,15 @@
 body {
   color: $font-color;
   background-color: $white;
-  //font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  min-height: 100vh;
 }
 
 .header-bg {
+  padding-top: 10px;
   width: 100%;
-  height: 500px;
+  height: calc(100vh - 70px);
 }
 
 a:hover{

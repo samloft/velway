@@ -5,7 +5,7 @@
 @section('content')
     <div class="heading__curved">
         <div class="container pt-4 pb-4">
-            <h3 class="pb-3">{{ __('Property Management') }}</h3>
+            <h1 class="pb-3 font-weight-bold">{{ __('Property Management') }}</h1>
 
             <p>{{ __('Velway are able to deliver planned, preventative maintenance, reactive and emergency works as well as offer an in-house facilities management provision to clients’ requirements nationally.') }}</p>
         </div>

@@ -1,4 +1,5 @@
 nav {
+  height: 80px;
   border-bottom: 1px solid rgba(0, 0, 0, 1.0);
 
   .active span::after {
@@ -40,4 +41,8 @@ nav {
       padding-right: 0 !important;
     }
   }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $font-color;
 }
