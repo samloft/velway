@@ -19,3 +19,20 @@ h2.page__title {
     margin: 20px 0 0;
   }
 }
+
+.heading__underlined--green {
+  font-weight: 600;
+  margin-bottom: 30px;
+
+  &:after {
+    display: block;
+    clear: both;
+    content: "";
+    position: relative;
+    height: 5px;
+    width: 30px;
+    border-radius: 0.05rem;
+    margin: 20px 0 0;
+    border-bottom: 4px solid $green;
+  }
+}

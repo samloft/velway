@@ -8,7 +8,7 @@
             <div class="container">
                 <h2 class="page__title">{{ __('About Us') }}</h2>
 
-                <div class="row">
+                <div class="row row__has-curve">
                     <div class="col-lg-6">
                         <h3 class="heading__white">{{ __('Compliance – Openness – Service – Mutual Dependency') }}</h3>
 
@@ -36,14 +36,14 @@
         </div>
 
         <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="200"
-             viewBox="0 1 100 300" preserveAspectRatio="none">
+             viewBox="0 1 100 360" preserveAspectRatio="none">
             <path d="M-1 -10 C 00 0 10 300 100 0 Z" fill="rgba(137, 192, 172, 1.0)"></path>
         </svg>
 
         <div class="container mb-5">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6">
-                    <h3>{{ __('Where to find us?') }}</h3>
+                    <h2 class="heading__underlined--green">{{ __('Where to find us?') }}</h2>
 
                     <p class="mb-5">
                         {{ __('Velway Group engineers and construction teams work across the country to design, build and maintain commercial properties on a nationwide basis. From operational bases in Wakefield, London, Swindon and Norwich Velway are able to deliver planned, preventative maintenance, reactive and emergency works as well as offer an in-house facilities management provision to clients’ requirements nationally.') }}
