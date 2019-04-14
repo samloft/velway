@@ -54,3 +54,17 @@
     margin-bottom: 10px;
   }
 }
+
+.chat {
+  padding-top: 130px;
+  padding-left: 40px;
+  border-top-left-radius: 20%;
+  background-color: $secondary-color;
+  color: $white;
+
+  span {
+    display: block;
+    color: rgba(248, 249, 248, 1.0);
+    line-height: 25px;
+  }
+}
