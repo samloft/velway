@@ -72,7 +72,7 @@
 
 .chat {
   padding-top: 130px;
-  padding-left: 40px;
+  padding-left: 60px;
   border-top-left-radius: 20%;
   background-color: $secondary-color;
   color: $white;
@@ -145,5 +145,13 @@
 
   img.contact-map {
     max-width: 350px;
+  }
+}
+
+.contact--background {
+  background: linear-gradient(to right, #fff 0%, #fff 70%, #343f4f 10%, #343f4f 100%);
+
+  .contact--form {
+    background-color: $white !important;
   }
 }

@@ -21,6 +21,7 @@ button.btn.btn-primary {
     padding: 3px 30px;
 }
 
-button:hover {
+.btn:hover {
   opacity: 0.8;
+  cursor: pointer;
 }

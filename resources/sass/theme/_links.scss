@@ -1,0 +1,11 @@
+a.link__dark {
+  color: rgba(101, 134, 163, 1.0);
+
+  &:hover {
+    color: $white;
+  }
+}
+
+a.link__underline {
+  border-bottom: 1px solid rgba(101, 134, 163, 1.0);
+}
