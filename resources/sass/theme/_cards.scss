@@ -1,0 +1,15 @@
+.card__quote {
+  border-radius: calc(0.80rem - 1px);
+  -moz-box-shadow: 0 0 4px rgba(219, 219, 219, 1.0);
+  -webkit-box-shadow: 0 0 4px rgba(219, 219, 219, 1.0);
+  box-shadow: 0 2px 4px 2px rgba(218, 218, 218, 1.0);
+  width: 300px;
+  padding: 30px;
+  right: 0;
+  float: right;
+  font-size: 18px;
+  background-color: $white;
+  color: $black;
+  position: absolute;
+  z-index:1;
+}

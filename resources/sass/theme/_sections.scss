@@ -130,3 +130,15 @@
     max-height: 80px;
   }
 }
+
+.section__about {
+  .about--top {
+    padding-top: 40px;
+    color: $white;
+    background-color: $green;
+  }
+
+  img.contact-map {
+    max-width: 350px;
+  }
+}

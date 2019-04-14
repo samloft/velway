@@ -3,7 +3,7 @@
 @section('page.title', 'News')
 
 @section('content')
-    <div class="news">
+    <div class="news off-white">
         <div class="container pt-4 pb-4">
             <h2 class="pb-3">{{ __('News') }}</h2>
 

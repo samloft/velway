@@ -58,7 +58,7 @@
 
             <div class="row">
                 <div class="col-2">
-                    <img src="{{ asset('images/fire.png') }}" alt="Fire">
+                    <img class="img-fluid" src="{{ asset('images/fire.png') }}" alt="Fire">
                 </div>
                 <div class="col">
                     <h4>{{ __('Fire') }}</h4>
@@ -70,7 +70,7 @@
 
             <div class="row">
                 <div class="col-2">
-                    <img src="{{ asset('images/water.png') }}" alt="Water">
+                    <img class="img-fluid" src="{{ asset('images/water.png') }}" alt="Water">
                 </div>
                 <div class="col">
                     <h4>{{ __('Water') }}</h4>
@@ -82,7 +82,7 @@
 
             <div class="row">
                 <div class="col-2">
-                    <img src="{{ asset('images/asbestos.png') }}" alt="Asbestos">
+                    <img class="img-fluid" src="{{ asset('images/asbestos.png') }}" alt="Asbestos">
                 </div>
                 <div class="col">
                     <h4>{{ __('Asbestos') }}</h4>
@@ -94,7 +94,7 @@
 
             <div class="row">
                 <div class="col-2">
-                    <img src="{{ asset('images/health_and_safety.png') }}" alt="Health and Safety">
+                    <img class="img-fluid" src="{{ asset('images/health_and_safety.png') }}" alt="Health and Safety">
                 </div>
                 <div class="col">
                     <h4>{{ __('Health and Safety') }}</h4>
@@ -106,7 +106,7 @@
 
             <div class="row">
                 <div class="col-2">
-                    <img src="{{ asset('images/dda.png') }}" alt="DDA">
+                    <img class="img-fluid" src="{{ asset('images/dda.png') }}" alt="DDA">
                 </div>
                 <div class="col">
                     <h4>{{ __('DDA') }}</h4>
