@@ -33,8 +33,8 @@
         {{ __('Admin') }}
     </div>
 
-    <li class="nav-item">
-        <a class="nav-link" href="/">
+    <li class="nav-item {{ setActive('cms.users') }}">
+        <a class="nav-link" href="{{ route('cms.users') }}">
             <i class="fas fa-users fa-table"></i>
             <span>{{ __('Users') }}</span>
         </a>

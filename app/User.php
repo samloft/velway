@@ -36,4 +36,24 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * Return all the admin users.
+     *
+     * @return mixed
+     */
+    public static function show()
+    {
+        return (new User)->orderBy('name', 'asc')->get();
+    }
+
+    /**
+     * Count of all the users.
+     *
+     * @return mixed
+     */
+    public static function showCount()
+    {
+        return (new User)->count();
+    }
 }

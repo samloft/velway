@@ -4,22 +4,21 @@ namespace App\Http\Controllers\Cms;
 
 use App\User;
 use Illuminate\Contracts\View\Factory;
+use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\View\View;
 
-class HomeController extends Controller
+class UserController extends Controller
 {
     /**
-     * Show the CMS dashboard.
+     * Displays all the admin users.
      *
      * @return Factory|View
      */
     public function index()
     {
-        $dashboard = [
-            'users' => User::showCount()
-        ];
+        $users = User::show();
 
-        return view('cms.index', compact('dashboard'));
+        return view('cms.users.index', compact('users'));
     }
 }
