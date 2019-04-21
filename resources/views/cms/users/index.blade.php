@@ -5,7 +5,9 @@
 @section('content')
     <div class="card card-body">
         <div class="text-right mb-3">
-            <button class="btn btn-primary">{{ __('Create User') }}</button>
+            <a href="{{ route('cms.users.create') }}">
+                <button class="btn btn-primary">{{ __('Create User') }}</button>
+            </a>
         </div>
 
         <table class="table table-dark table-stripped table-bordered table-hover">
@@ -24,7 +26,6 @@
                     <td>{{ $user->email }}</td>
                     <td>{{ \Carbon\Carbon::parse($user->created_at)->format('d/m/Y') }}</td>
                     <td class="text-right pt-2 pb-2">
-                        <button class="btn btn-sm btn-info">Edit</button>
                         <button class="btn btn-sm btn-danger">Delete</button>
                     </td>
                 </tr>

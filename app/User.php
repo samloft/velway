@@ -5,6 +5,7 @@ namespace App;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Support\Facades\Hash;
 
 class User extends Authenticatable
 {
@@ -55,5 +56,24 @@ class User extends Authenticatable
     public static function showCount()
     {
         return (new User)->count();
+    }
+
+    /**
+     * Add the user to the database.
+     *
+     * @param $user
+     * @return mixed
+     */
+    public static function store($user)
+    {
+        $user_details = [
+            'name' => $user->name,
+            'email' => $user->email,
+            'password' => Hash::make($user->password),
+            'created_at' => date('Y-m-d H:i:s'),
+            'updated_at' => date('Y-m-d H:i:s')
+        ];
+
+        return (new User)->insert($user_details);
     }
 }
