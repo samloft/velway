@@ -1,19 +1,49 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>{{ env('APP_NAME') }} CMS - @yield('page.title')</title>
+    <title>{{ env('APP_NAME') }} - CMS</title>
 
-    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+
+    <link href="{{ asset('css/cms.min.css') }}" rel="stylesheet">
+
 </head>
-<body>
 
-@yield('content')
+<body id="page-top">
+<div id="wrapper">
 
-<script src="{{ mix('js/app.js') }}"></script>
+    @include('cms.layout.navigation')
+
+    <div id="content-wrapper" class="d-flex flex-column">
+        <div id="content">
+            @include('cms.layout.header')
+
+            <div class="container-fluid">
+                <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <h1 class="h3 mb-0 text-gray-800">@yield('page.title')</h1>
+                </div>
+
+                @yield('content')
+            </div>
+
+        </div>
+
+        @include('cms.layout.footer')
+
+    </div>
+
+</div>
+
+<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/cms.min.js') }}"></script>
 
 </body>
+
 </html>
