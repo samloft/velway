@@ -1,51 +1,50 @@
-.section__info {
-  background-color: $primary-color;
+section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.bg__light-blue {
+  background-color: $light-blue;
+  color: white;
+}
+
+.bg__dark-blue {
+  background-color: $dark-blue;
   color: $white;
-  padding-top: 50px;
-  padding-bottom: 30px;
+}
+
+.section__info {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .section__3-column {
-  margin-top: 40px;
-  margin-bottom: 20px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   text-align: center;
 
   img {
     height: 100px;
   }
 
-  h4 {
-    font-size: 1.50rem;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-bottom: 5px;
+  .block__info {
+    padding-left: 20px;
+    padding-right: 20px;
 
-    &:after {
-      display: block;
-      clear: both;
-      content: "";
-      position: relative;
-      height: 5px;
-      width: 30px;
-      border-bottom: 4px solid $primary-color;
-      border-radius: 0.05rem;
-      margin: 20px auto 0;
+    p {
+      height: 100px;
     }
   }
 
   button {
-    margin-bottom: 20px;
-  }
-  .block__info {
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
   }
 }
 
 .section__customers {
-  background-color: $primary-color;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   text-align: center;
 
   .row {
@@ -54,33 +53,7 @@
   }
 
   img {
-    height: 50px;
-    margin-bottom: 10px;
-  }
-}
-
-.news {
-  .card {
-    border: 0;
-  }
-
-  .card img {
-    max-height: 300px;
-    width: 100%;
-  }
-}
-
-.chat {
-  padding-top: 130px;
-  padding-left: 60px;
-  border-top-left-radius: 20%;
-  background-color: $secondary-color;
-  color: $white;
-
-  span {
-    display: block;
-    color: rgba(248, 249, 248, 1.0);
-    line-height: 25px;
+    height: 45px;
   }
 }
 
@@ -89,12 +62,12 @@
   color: $white;
   border-bottom-left-radius: 15%;
   border-bottom-right-radius: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .management__options {
   text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
 
   .row {
     padding-left: 30px;
@@ -104,35 +77,15 @@
   img {
     max-height: 80px;
   }
-
-  h4 {
-    margin-top: 20px;
-    font-weight: 700;
-
-    &:after {
-      display: block;
-      clear: both;
-      content: "";
-      position: relative;
-      height: 5px;
-      width: 30px;
-      border-bottom: 4px solid rgba(52, 63, 79, 1.0);
-      border-radius: 0.05rem;
-      margin: 10px auto 0;
-    }
-  }
 }
 
 .compliance {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-
-  .row {
+  .row:not(:last-of-type) {
     padding-bottom: 30px;
   }
 
   img {
-    max-height: 80px;
+    max-height: 70px;
   }
 }
 
@@ -143,15 +96,29 @@
     background-color: $green;
   }
 
+  #curveDownColor {
+    fill: $green;
+  }
+
   img.contact-map {
     max-width: 350px;
   }
 }
 
 .contact--background {
-  background: linear-gradient(to right, #fff 0%, #fff 70%, #343f4f 10%, #343f4f 100%);
+  background: linear-gradient(to right, #fff 0%, #fff 70%, $dark-blue 10%, $dark-blue 100%);
+}
 
-  .contact--form {
-    background-color: $white !important;
+.chat {
+  padding-top: 130px;
+  padding-left: 60px;
+  border-top-left-radius: 80px;
+  background-color: $dark-blue;
+  color: $white;
+
+  span {
+    display: block;
+    color: rgba(248, 249, 248, 1.0);
+    line-height: 25px;
   }
 }

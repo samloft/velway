@@ -3,36 +3,52 @@ h2.page__title {
   padding-bottom: 40px;
 }
 
-.heading__white {
-  padding-bottom: 25px;
-  margin-bottom: 5px;
-
-  &:after {
-    display: block;
-    clear: both;
-    content: "";
-    position: relative;
-    height: 5px;
-    width: 30px;
-    border-bottom: 4px solid $white;
-    border-radius: 0.05rem;
-    margin: 20px 0 0;
-  }
+h3 {
+  font-weight: 300;
 }
 
-.heading__underlined--green {
+h4 {
+  font-size: 1.30rem;
   font-weight: 600;
-  margin-bottom: 30px;
+}
 
-  &:after {
+.heading {
+  padding-top: 25px;
+  padding-bottom: 10px;
+
+  &--underlined:after {
+    margin: 10px 0 0;
+    content: ' ';
     display: block;
-    clear: both;
-    content: "";
     position: relative;
-    height: 5px;
-    width: 30px;
-    border-radius: 0.05rem;
-    margin: 20px 0 0;
-    border-bottom: 4px solid $green;
+    width: 35px;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    transform: translateX(-50%);
+  }
+
+  &--centered:after {
+    left: 50%;
+    right: 50%;
+  }
+
+  &--left:after {
+    margin-left: 20px;
+  }
+
+  &--dark-blue:after {
+    border: 2px solid $dark-blue;
+  }
+
+  &--light-blue:after {
+    border: 2px solid $light-blue;
+  }
+
+  &--white:after {
+    border: 2px solid $white;
+  }
+
+  &--green:after {
+    border: 2px solid $green;
   }
 }

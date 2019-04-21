@@ -7,16 +7,28 @@
     <title>{{ env('APP_NAME') }} - @yield('page.title')</title>
 
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/aos.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
 
 @include('layout.header')
+
+<div class="contact--floated">
+    <i class="fas fa-comment-dots"></i>
+</div>
 
 @yield('content')
 
 @include('layout.footer')
 
 <script src="{{ mix('js/app.js') }}"></script>
+<script src="{{ asset('js/aos.js') }}"></script>
+<script>
+    AOS.init({
+        duration: 1000
+    });
+</script>
 
 </body>
 </html>

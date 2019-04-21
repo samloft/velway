@@ -1,6 +1,7 @@
 @extends('layout.master')
 
 @section('page.title', 'Contact Us')
+@section('header.color', 'dark-blue')
 
 @section('content')
     <div class="contact--background">
@@ -11,7 +12,7 @@
 
                     @include('layout.alerts')
 
-                    <form method="post" action="{{ route('contact.send') }}" class="form-contact pb-5">
+                    <form method="post" action="{{ route('contact.send') }}" class="form-contact">
                         <div class="form-group">
                             @if($errors->get('name'))
                                 <small class="text-danger">{{ $errors->first('name') }}</small>
@@ -46,7 +47,7 @@
                 </div>
 
                 <div class="col-lg-5 chat">
-                    <h2 class="heading__white mb-5">{{ __('Let\'s Chat?') }}</h2>
+                    <h2 class="heading heading--underlined heading--left heading--white">{{ __('Let\'s Chat?') }}</h2>
 
                     <span>{{ ('Email:') }} <a href="MAILTO:info@velway.co.uk"
                                               class="link__dark">info@velway.co.uk</a></span>

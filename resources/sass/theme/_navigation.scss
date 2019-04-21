@@ -1,17 +1,50 @@
 nav {
   height: 80px;
-  border-bottom: 1px solid rgba(0, 0, 0, 1.0);
+  border-bottom: 1px solid rgb(229, 229, 229);
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 600;
 
   .active span::after {
+    left: 50%;
+    right: 50%;
+    content: ' ';
     display: block;
-    clear: both;
-    content: "";
-    height: 5px;
+    position: relative;
     width: 100%;
-    border-bottom: 4px solid $primary-color;
-    border-radius: 0.05rem;
-    margin: 0 auto 0;
-    padding-right: 1rem;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    transform: translateX(-50%);
+  }
+
+  .heading--light-blue {
+    .active span::after {
+      border: 2px solid $light-blue;
+    }
+
+    .nav-item:not(.active) a:hover::after {
+      border: 2px solid $light-blue;
+    }
+  }
+
+  .heading--dark-blue {
+    .active span::after {
+      border: 2px solid $dark-blue;
+    }
+
+    .nav-item:not(.active) a:hover::after {
+      border: 2px solid $dark-blue;
+    }
+  }
+
+  .heading--green {
+    .active span::after {
+      border: 2px solid $green;
+    }
+
+    .nav-item:not(.active) a:hover::after {
+      border: 2px solid $green;
+    }
   }
 
   .nav-item {
@@ -19,26 +52,22 @@ nav {
 
     .nav-link {
       color: $font-color;
-      font-weight: 500;
       padding-left: 1rem !important;
       padding-right: 1rem !important;
       position: relative;
     }
 
     &:not(.active) a:hover::after {
+      left: 50%;
+      right: 50%;
+      content: ' ';
       display: block;
-      clear: both;
-      content: "";
-      height: 5px;
+      position: relative;
       width: 100%;
-      border-bottom: 4px solid $primary-color;
-      border-radius: 0.05rem;
-      margin: 0 auto 0;
-      padding-right: 1rem;
-    }
-
-    &:last-of-type {
-      padding-right: 0 !important;
+      //border: 2px solid $primary-color;
+      border-radius: 4px;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+      transform: translateX(-50%);
     }
   }
 }

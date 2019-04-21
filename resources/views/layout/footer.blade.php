@@ -14,21 +14,22 @@
         </div>
 
         <div class="social__footer">
-            <a href="">
+            <a href="#" class="image-link">
                 <img src="{{ asset('images/facebook.png') }}" alt="Facebook">
             </a>
-            <a href="">
+            <a href="#" class="image-link">
                 <img src="{{ asset('images/twitter.png') }}" alt="Twitter">
             </a>
-            <a href="">
+            <a href="#" class="image-link">
                 <img src="{{ asset('images/linked-in.png') }}" alt="LinkedIn">
             </a>
-            <a href="">
+            <a href="#" class="image-link">
                 <img src="{{ asset('images/youtube.png') }}" alt="Youtube">
             </a>
         </div>
     </div>
 </footer>
+
 <footer class="copyright">
     <div class="container">
         {{ __('Ⓒ ' . date('Y') . ' Velway Company Ltd. All Rights Reserved') }}
