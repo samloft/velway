@@ -53,4 +53,18 @@ class UserController extends Controller
         return $user_created ? redirect(route('cms.users'))->with('success', 'New user has been created') :
             back()->with('error', 'Unable to create user, please try again');
     }
+
+    /**
+     * Delete a user with the given ID.
+     *
+     * @param $id
+     * @return RedirectResponse
+     */
+    public function destroy($id)
+    {
+        $user_deleted = User::destroy($id);
+
+        return $user_deleted ? back()->with('success', 'User has been deleted') :
+            back()->with('error', 'Unable to delete user, please try again');
+    }
 }

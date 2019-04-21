@@ -26,7 +26,9 @@
                     <td>{{ $user->email }}</td>
                     <td>{{ \Carbon\Carbon::parse($user->created_at)->format('d/m/Y') }}</td>
                     <td class="text-right pt-2 pb-2">
-                        <button class="btn btn-sm btn-danger">Delete</button>
+                        <a href="{{ route('cms.users.delete', ['id' => $user->id]) }}">
+                            <button class="btn btn-sm btn-danger">Delete</button>
+                        </a>
                     </td>
                 </tr>
             @endforeach

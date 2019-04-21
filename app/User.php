@@ -5,6 +5,7 @@ namespace App;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Hash;
 
 class User extends Authenticatable
@@ -75,5 +76,16 @@ class User extends Authenticatable
         ];
 
         return (new User)->insert($user_details);
+    }
+
+    /**
+     * Delete a user from the database.
+     *
+     * @param int $id
+     * @return int
+     */
+    public static function destroy($id)
+    {
+        return (new User)->where('id', $id)->delete();
     }
 }
