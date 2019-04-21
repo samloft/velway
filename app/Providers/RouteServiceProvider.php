@@ -39,7 +39,7 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapWebRoutes();
 
-        //
+        $this->mapCmsRoutes();
     }
 
     /**
@@ -51,9 +51,25 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapWebRoutes()
     {
-        Route::middleware('web')
-             ->namespace($this->namespace)
-             ->group(base_path('routes/web.php'));
+        Route::domain($this->baseDomain())
+            ->middleware('web')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/web.php'));
+    }
+
+    /**
+     * Define the "cms" routes for the application.
+     *
+     * CMS Admin panel.
+     *
+     * @return void
+     */
+    protected function mapCmsRoutes()
+    {
+        Route::domain($this->baseDomain('cms'))
+            ->middleware('web')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/cms.php'));
     }
 
     /**
@@ -65,9 +81,22 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapApiRoutes()
     {
-        Route::prefix('api')
-             ->middleware('api')
-             ->namespace($this->namespace)
-             ->group(base_path('routes/api.php'));
+        Route::domain($this->baseDomain('api'))
+            ->middleware('api')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/api.php'));
+    }
+
+    private function baseDomain(string $sub_domain = ''): string
+    {
+        if (strlen($sub_domain) > 0) {
+            $sub_domain = "{$sub_domain}.";
+        }
+
+        $url = env('APP_URL');
+        $url = str_replace('http://', '', $url);
+        $url = str_replace('https://', '', $url);
+
+        return $sub_domain . $url;
     }
 }

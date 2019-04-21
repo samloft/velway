@@ -2,15 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Contracts\View\Factory;
-use Illuminate\View\View;
+use Illuminate\Contracts\Support\Renderable;
 
 class HomeController extends Controller
 {
     /**
-     * Display the home page.
+     * Show the Home page.
      *
-     * @return Factory|View
+     * @return Renderable
      */
     public function index()
     {
