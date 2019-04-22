@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Models\CompanyInformation;
 use Illuminate\Support\ServiceProvider;
+use Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -24,6 +25,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        view()->share('company_details', CompanyInformation::show());
+        if (Schema::hasTable('company_details')) {
+            view()->share('company_details', CompanyInformation::show());
+        }
     }
 }
