@@ -34,8 +34,8 @@
         </a>
     </li>
 
-    <li class="nav-item">
-        <a class="nav-link" href="/">
+    <li class="nav-item {{ setActive('cms.social') }}">
+        <a class="nav-link" href="{{ route('cms.social') }}">
             <i class="fas fa-fw fa-hashtag"></i>
             <span>{{ __('Social Media') }}</span>
         </a>

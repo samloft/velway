@@ -10,6 +10,11 @@ Route::group(['middleware' => 'auth'], function() {
         Route::post('store', 'Cms\CompanyInformationController@store')->name('cms.company-information.store');
     });
 
+    Route::group(['prefix' => 'social'], function() {
+        Route::get('/', 'Cms\SocialController@index')->name('cms.social');
+        Route::post('store', 'Cms\SocialController@store')->name('cms.social.store');
+    });
+
     Route::group(['prefix' => 'users'], function() {
         Route::get('/', 'Cms\UserController@index')->name('cms.users');
         Route::get('create', 'Cms\UserController@create')->name('cms.users.create');
