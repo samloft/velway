@@ -25,18 +25,13 @@
         </div>
 
         <div class="social__footer">
-            <a href="#" class="image-link">
-                <img src="{{ asset('images/facebook.png') }}" alt="Facebook">
-            </a>
-            <a href="#" class="image-link">
-                <img src="{{ asset('images/twitter.png') }}" alt="Twitter">
-            </a>
-            <a href="#" class="image-link">
-                <img src="{{ asset('images/linked-in.png') }}" alt="LinkedIn">
-            </a>
-            <a href="#" class="image-link">
-                <img src="{{ asset('images/youtube.png') }}" alt="Youtube">
-            </a>
+            @foreach($social as $key => $value)
+                @if($value && $key !== 'id')
+                    <a href="{{ $value }}" class="image-link" target="_blank">
+                        <img src="{{ asset('images/' . $key . '.png') }}" alt="{{ ucfirst($key) }}">
+                    </a>
+                @endif
+            @endforeach
         </div>
     </div>
 </footer>
