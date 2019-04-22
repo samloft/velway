@@ -17,6 +17,7 @@ Route::get('about', 'AboutController@index')->name('about');
 
 Route::group(['prefix' => 'news'], function() {
     Route::get('/', 'NewsController@index')->name('news');
+    Route::get('{slug}', 'NewsController@show')->name('news.show');
 });
 
 Route::group(['prefix' => 'contact'], function() {

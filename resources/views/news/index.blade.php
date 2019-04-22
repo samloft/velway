@@ -25,7 +25,10 @@
                                 </div>
                             </div>
                             <p class="card-text">
-                                {!! $news->content !!}
+                                {!! Str::limit($news->content, 500) !!}
+                                <a href="{{ route('news.show', ['slug' => $news->slug]) }}" class="light-blue">
+                                    {{ __('[Read More]') }}
+                                </a>
                             </p>
                         </div>
                     </div>

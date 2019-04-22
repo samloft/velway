@@ -19,4 +19,17 @@ class NewsController extends Controller
 
         return view('news.index', compact('news_posts'));
     }
+
+    /**
+     * Show the full news article.
+     *
+     * @param $slug
+     * @return Factory|View
+     */
+    public function show($slug)
+    {
+        $news = News::details($slug);
+
+        return view('news.view', compact('news'));
+    }
 }

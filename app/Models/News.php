@@ -28,6 +28,17 @@ class News extends Model
     }
 
     /**
+     * Return the news item for the passed slug
+     *
+     * @param $slug
+     * @return mixed
+     */
+    public static function details($slug)
+    {
+        return (new News)->where('slug', $slug)->first();
+    }
+
+    /**
      * Store a new news post.
      *
      * @param $news_details
