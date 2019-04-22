@@ -22,8 +22,22 @@
 
     <li class="nav-item">
         <a class="nav-link" href="/">
+            <i class="fas fa-fw fa-building"></i>
+            <span>{{ __('Company Information') }}</span>
+        </a>
+    </li>
+
+    <li class="nav-item {{ setActive('cms.news') }}">
+        <a class="nav-link" href="{{ route('cms.news') }}">
             <i class="fas fa-fw fa-newspaper"></i>
             <span>{{ __('News') }}</span>
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="/">
+            <i class="fas fa-fw fa-hashtag"></i>
+            <span>{{ __('Social Media') }}</span>
         </a>
     </li>
 

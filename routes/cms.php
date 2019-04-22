@@ -11,4 +11,11 @@ Route::group(['middleware' => 'auth'], function() {
         Route::post('store', 'Cms\UserController@store')->name('cms.users.store');
         Route::get('delete/{id}', 'Cms\UserController@destroy')->name('cms.users.delete');
     });
+
+    Route::group(['prefix' => 'news'], function() {
+        Route::get('/', 'Cms\NewsController@index')->name('cms.news');
+        Route::get('create', 'Cms\NewsController@create')->name('cms.news.create');
+        Route::post('store', 'Cms\NewsController@store')->name('cms.news.store');
+        Route::get('delete/{id}', 'Cms\NewsController@destroy')->name('cms.news.delete');
+    });
 });

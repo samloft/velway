@@ -8,34 +8,34 @@
         <div class="container pt-4 pb-5">
             <h2 class="pb-3">{{ __('News') }}</h2>
 
-            <div class="card">
-                <img class="card-img-top" src="https://via.placeholder.com/150" alt="Card image cap">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col">
-                            <h3 class="heading heading--underlined heading--left heading--light-blue pt-0">Velway raise £1000
-                                for Bliss</h3>
-                        </div>
-                        <div class="col text-right">
-                            <div class="pull-right">21/03/2019</div>
+            @if(count($news_posts) > 0)
+                @foreach($news_posts as $news)
+                    <div class="card mb-3">
+                        <img class="card-img-top" src="{{ asset('images/news/' . $news->image) }}"
+                             alt="{{ $news->title }}">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h3 class="heading heading--underlined heading--left heading--light-blue pt-0">
+                                        {{ $news->title }}
+                                    </h3>
+                                </div>
+                                <div class="col text-right">
+                                    <div class="pull-right">{{ \Carbon\Carbon::parse($news->created_at)->format('d/m/Y') }}</div>
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                {!! $news->content !!}
+                            </p>
                         </div>
                     </div>
-                    <p class="card-text">
-                        Id velit senserit constituam eum. Ferri deleniti definitionem sea ut, mel ei oratio soluta.
-                        At
-                        altera virtute iuvaret nam, eam maiorum invidunt ut, ne has mollis iisque. Pri at mundi
-                        soleat
-                        deserunt, cum tota appareat in. Ne duo odio lorem commune, vocibus oporteat cu eum, ad
-                        animal
-                        timeam patrioque pri.Delectus ponderum atomorum ne has, ut qui unum neglegentur
-                        consequuntur,
-                        erant option argumentum in vel. Est id atomorum periculis instructior, fuisset appetere
-                        complectitur in usu. An movet liberavisse vix. Dicunt tractatos at nam, vis eu movet facete
-                        option, ne pri dolores contentiones. Nibh lobortis adipiscing ex sed, sumo virtute copiosae
-                        pri
-                        no, te erat feugait propriae.
-                    </p>
-                </div>
+                @endforeach
+            @else
+                <h2 class="text-center">{{ __('No news articles have been created yet.') }}</h2>
+            @endif
+
+            <div class="text-right">
+                {{ $news_posts->links() }}
             </div>
         </div>
     </div>
