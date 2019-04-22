@@ -14,7 +14,7 @@ class AddGoogleMapsToCompanyDetailsTable extends Migration
     public function up()
     {
         Schema::table('company_details', function (Blueprint $table) {
-            $table->string('google_maps_url');
+            $table->string('google_maps_url')->nullable();
         });
     }
 

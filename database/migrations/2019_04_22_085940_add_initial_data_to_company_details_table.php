@@ -15,7 +15,6 @@ class AddInitialDataToCompanyDetailsTable extends Migration
     {
         DB::table('company_details')->where('id', 1)->updateOrInsert([
             'address_line_1' => '',
-            'google_maps_url' => ''
         ]);
     }
 
