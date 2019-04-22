@@ -20,8 +20,8 @@
         {{ __('Site') }}
     </div>
 
-    <li class="nav-item">
-        <a class="nav-link" href="/">
+    <li class="nav-item {{ setActive('cms.company-information') }}">
+        <a class="nav-link" href="{{ route('cms.company-information') }}">
             <i class="fas fa-fw fa-building"></i>
             <span>{{ __('Company Information') }}</span>
         </a>

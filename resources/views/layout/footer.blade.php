@@ -9,8 +9,19 @@
         </div>
 
         <div class="contact__footer">
-            <span>{!! ('Email: <a href="MAILTO:info@velway.co.uk">info@velway.com</a> | Phone: 0123 456 789 | Fax: 0123 456 789') !!}</span>
-            <span>{{ ('Location: Velway, Landsberg, Lichfield Road Ind. Est., Tamworth, Staffordshire B79 7XB.') }}</span>
+            <span>
+                {!! $company_details->email ? 'Email: <a href="MAILTO:' . $company_details->email .'">' . $company_details->email . '</a> ' : ' ' !!}
+                {{ $company_details->telephone ? '| Phone: ' . $company_details->telephone : ' ' }}
+                {{ $company_details->fax ? '| Fax: ' . $company_details->fax : ' ' }}
+            </span>
+            <span>
+                {{ $company_details->address_line_1 ? 'Location: ' . $company_details->address_line_1 . ', ' : '' }}
+                {{ $company_details->address_line_2 ? $company_details->address_line_2 . ', '  : '' }}
+                {{ $company_details->address_line_3 ? $company_details->address_line_3 . ', '  : '' }}
+                {{ $company_details->address_line_4 ? $company_details->address_line_4 . ', '  : '' }}
+                {{ $company_details->address_line_5 ? $company_details->address_line_5 . ', ' : '' }}
+                {{ $company_details->postcode ? $company_details->postcode . '.' : '' }}
+            </span>
         </div>
 
         <div class="social__footer">
