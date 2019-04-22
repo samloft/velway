@@ -26,8 +26,11 @@
                     <td>{{ $news_item->title }}</td>
                     <td>{{ \Carbon\Carbon::parse($news_item->created_at)->format('d-m-Y H:i:s') }}</td>
                     <td class="text-right pt-2 pb-2">
+                        <a href="{{ route('cms.news.update', ['id' => $news_item->id]) }}">
+                            <button class="btn btn-info btn-sm">{{ __('Edit') }}</button>
+                        </a>
                         <a href="{{ route('cms.news.delete', ['id' => $news_item->id]) }}">
-                            <button class="btn btn-danger btn-sm">Delete</button>
+                            <button class="btn btn-danger btn-sm">{{ __('Delete') }}</button>
                         </a>
                     </td>
                 </tr>

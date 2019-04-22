@@ -27,21 +27,42 @@ class NewsController extends Controller
     /**
      * Display the create news form.
      *
+     * @param $id
      * @return Factory|View
      */
-    public function create()
+    public function show($id)
     {
-        return view('cms.news.create');
+        if ($id) {
+            $news = News::showById($id);
+        } else {
+            $news = false;
+        }
+
+        return view('cms.news.create', compact('news'));
     }
 
     /**
-     * Create a new news post.
+     * Create a new news post, if an ID is passed in the request
+     * then update the news post.
      *
      * @param Request $request
      * @return RedirectResponse|Redirector
      */
     public function store(Request $request)
     {
+        if ($request->id) {
+            $request->validate([
+                'title' => 'required',
+                'image' => 'image|mimes:png,jpg,jpeg',
+                'content' => 'required|min:100'
+            ]);
+
+            $news_updated = News::updatePost($request);
+
+            return $news_updated ? redirect(route('cms.news'))->with('success', 'News post ' . $request->title . ' has been updated') :
+                back()->with('error', 'Unable to update news post, please try again');
+        }
+
         $request->validate([
             'title' => 'required|unique:news',
             'image' => 'required|image|mimes:png,jpg,jpeg',

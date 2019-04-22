@@ -8,7 +8,7 @@ Route::group(['middleware' => 'auth'], function() {
     Route::group(['prefix' => 'users'], function() {
         Route::get('/', 'Cms\UserController@index')->name('cms.users');
         Route::get('create', 'Cms\UserController@create')->name('cms.users.create');
-        Route::post('store', 'Cms\UserController@store')->name('cms.users.store');
+        Route::post('store', 'Cms\UserController@show')->name('cms.users.store');
         Route::get('delete/{id}', 'Cms\UserController@destroy')->name('cms.users.delete');
     });
 
@@ -17,5 +17,6 @@ Route::group(['middleware' => 'auth'], function() {
         Route::get('create', 'Cms\NewsController@create')->name('cms.news.create');
         Route::post('store', 'Cms\NewsController@store')->name('cms.news.store');
         Route::get('delete/{id}', 'Cms\NewsController@destroy')->name('cms.news.delete');
+        Route::get('update/{id?}', 'Cms\NewsController@show')->name('cms.news.update');
     });
 });
