@@ -24,7 +24,7 @@ Route::group(['middleware' => 'auth'], function() {
 
     Route::group(['prefix' => 'news'], function() {
         Route::get('/', 'Cms\NewsController@index')->name('cms.news');
-        Route::get('create', 'Cms\NewsController@create')->name('cms.news.create');
+        Route::get('create', 'Cms\NewsController@show')->name('cms.news.create');
         Route::post('store', 'Cms\NewsController@store')->name('cms.news.store');
         Route::get('delete/{id}', 'Cms\NewsController@destroy')->name('cms.news.delete');
         Route::get('update/{id?}', 'Cms\NewsController@show')->name('cms.news.update');

@@ -30,7 +30,7 @@ class NewsController extends Controller
      * @param $id
      * @return Factory|View
      */
-    public function show($id)
+    public function show($id = null)
     {
         if ($id) {
             $news = News::showById($id);
