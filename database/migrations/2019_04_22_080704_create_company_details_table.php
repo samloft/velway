@@ -25,10 +25,6 @@ class CreateCompanyDetailsTable extends Migration
             $table->string('telephone')->nullable();
             $table->string('fax')->nullable();
         });
-
-        DB::table('company_details')->insert([
-            'address_line_1' => '',
-        ]);
     }
 
     /**
