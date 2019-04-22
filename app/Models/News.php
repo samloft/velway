@@ -18,6 +18,16 @@ class News extends Model
     }
 
     /**
+     * Get the count of all news posts.
+     *
+     * @return mixed
+     */
+    public static function showCount()
+    {
+        return (new News)->count();
+    }
+
+    /**
      * Store a new news post.
      *
      * @param $news_details

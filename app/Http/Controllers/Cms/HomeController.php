@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Cms;
 
+use App\Models\News;
 use App\User;
 use Illuminate\Contracts\View\Factory;
 use App\Http\Controllers\Controller;
@@ -17,7 +18,8 @@ class HomeController extends Controller
     public function index()
     {
         $dashboard = [
-            'users' => User::showCount()
+            'users' => User::showCount(),
+            'news' => News::showCount(),
         ];
 
         return view('cms.index', compact('dashboard'));
