@@ -23,8 +23,10 @@ a:hover{
 
 .contact--floated {
   float: right;
-  color: $white;
+  right: 0;
+  position: fixed;
   background-color: $light-blue;
+  color: $white;
   margin-right: 40px;
   margin-top: 20px;
   font-size: 32px;
@@ -32,9 +34,46 @@ a:hover{
   border-top-right-radius: 25%;
   border-bottom-left-radius: 25%;
 
+  &:hover {
+    cursor: pointer;
+  }
+
   i {
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+
+.contact--floated--expanded {
+  float: right;
+  right: 0;
+  position: fixed;
+  background-color: $white;
+  color: $light-blue;
+  margin-right: 40px;
+  margin-top: 20px;
+  font-size: 32px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: 4px solid $light-blue;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: none;
+
+  a {
+    text-decoration: none;
+    color: $light-blue;
+  }
+
+  i {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
   }
 }
 
