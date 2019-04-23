@@ -14,7 +14,7 @@
 
     <section class="container management__options">
         <div class="row text-center">
-            <div class="col-lg-3">
+            <div class="col-lg-3" data-aos="fade-right">
                 <img src="{{ asset('images/reactive_maintenance.png') }}" alt="Reactive Maintenance">
 
                 <h4 class="heading heading--underlined heading--centered heading--dark-blue">{!! __('Reactive<br>Maintenance') !!}</h4>
@@ -23,7 +23,7 @@
                     {{ __('Everything from a broken tap to a leaking roof or faulty AC.') }}
                 </p>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3" data-aos="fade-up">
                 <img src="{{ asset('images/planned_maintenance.png') }}" alt="Planned Maintenance">
 
                 <h4 class="heading heading--underlined heading--centered heading--dark-blue">{!! __('Planned<br>Maintenance') !!}</h4>
@@ -32,7 +32,7 @@
                     {{ __('Cyclical and routine maintenance to Increase lifecycle longevity, ensure compliance or maintain warranties.') }}
                 </p>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3" data-aos="fade-up">
                 <img src="{{ asset('images/risk_assessment.png') }}" alt="Risk Assessment">
 
                 <h4 class="heading heading--underlined heading--centered heading--dark-blue">{!! __('Risk Assessment<br>Management') !!}</h4>
@@ -41,7 +41,7 @@
                     {{ __('Completion of all property related risk assessments and the management of all significant findings to make sure you are compliant.') }}
                 </p>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3" data-aos="fade-left">
                 <img src="{{ asset('images/building_inspection.png') }}" alt="Building Inspection">
 
                 <h4 class="heading heading--underlined heading--centered heading--dark-blue">{!! __('Routine Building<br>Inspection') !!}</h4>
