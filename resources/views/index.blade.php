@@ -60,7 +60,7 @@
 
     <div class="container section__3-column">
         <div class="row">
-            <div class="col-lg-4" data-aos="flip-left">
+            <div class="col-lg-4" data-aos="fade-right">
                 <div class="block__info">
                     <img src="{{ asset('images/electrician.png') }}" alt="Electrician">
 
@@ -71,7 +71,7 @@
                     <button class="btn btn-primary">{{ __('Find Out More') }}</button>
                 </div>
             </div>
-            <div class="col-lg-4" data-aos="flip-left">
+            <div class="col-lg-4" data-aos="fade-up">
                 <div class="block__info">
                     <img src="{{ asset('images/plumber.png') }}" alt="Plumber">
 
@@ -82,7 +82,7 @@
                     <button class="btn btn-primary">{{ __('Find Out More') }}</button>
                 </div>
             </div>
-            <div class="col-lg-4" data-aos="flip-left">
+            <div class="col-lg-4" data-aos="fade-left">
                 <div class="block__info">
                     <img src="{{ asset('images/heating.png') }}" alt="Engineer">
 
@@ -101,16 +101,16 @@
             <div class="col">
                 <img src="{{ asset('images/customer.png') }}" alt="customer">
             </div>
-            <div class="col" data-aos="flip-up">
+            <div class="col">
                 <img src="{{ asset('images/customer.png') }}" alt="customer">
             </div>
-            <div class="col" data-aos="flip-up">
+            <div class="col">
                 <img src="{{ asset('images/customer.png') }}" alt="customer">
             </div>
-            <div class="col" data-aos="flip-up">
+            <div class="col">
                 <img src="{{ asset('images/customer.png') }}" alt="customer">
             </div>
-            <div class="col" data-aos="flip-up">
+            <div class="col">
                 <img src="{{ asset('images/customer.png') }}" alt="customer">
             </div>
         </div>
