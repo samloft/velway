@@ -98,7 +98,7 @@
 
     <div class="section__customers bg__light-blue">
         <div class="row">
-            <div class="col" data-aos="flip-up">
+            <div class="col">
                 <img src="{{ asset('images/customer.png') }}" alt="customer">
             </div>
             <div class="col" data-aos="flip-up">
