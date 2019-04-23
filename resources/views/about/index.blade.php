@@ -36,9 +36,8 @@
             </div>
         </div>
 
-        <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="200"
-             viewBox="0 1 100 360" preserveAspectRatio="none">
-            <path d="M-1 -10 C 00 0 10 200 100 0 Z"></path>
+        <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="600" viewBox="0 1 100 300" preserveAspectRatio="none">
+            <path d="M-1 -10 C 00 0 10 600 100 0 Z"></path>
         </svg>
 
         <div class="container mb-5">
