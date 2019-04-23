@@ -62,7 +62,7 @@
         <div class="row">
             <div class="col-lg-4" data-aos="flip-left">
                 <div class="block__info">
-                    <img src="{{ asset('images/handy-man.png') }}" alt="Electrician">
+                    <img src="{{ asset('images/electrician.png') }}" alt="Electrician">
 
                     <h4 class="heading heading--underlined heading--centered heading--light-blue">{{ __('I need an electrician') }}</h4>
 
@@ -73,7 +73,7 @@
             </div>
             <div class="col-lg-4" data-aos="flip-left">
                 <div class="block__info">
-                    <img src="{{ asset('images/handy-man.png') }}" alt="Plumber">
+                    <img src="{{ asset('images/plumber.png') }}" alt="Plumber">
 
                     <h4 class="heading heading--underlined heading--centered heading--light-blue">{{ __('I need an plumber') }}</h4>
 
@@ -84,7 +84,7 @@
             </div>
             <div class="col-lg-4" data-aos="flip-left">
                 <div class="block__info">
-                    <img src="{{ asset('images/handy-man.png') }}" alt="Engineer">
+                    <img src="{{ asset('images/heating.png') }}" alt="Engineer">
 
                     <h4 class="heading heading--underlined heading--centered heading--light-blue">{{ __('I need an Heating Engineer') }}</h4>
 
