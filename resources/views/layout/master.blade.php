@@ -34,6 +34,7 @@
 @include('layout.footer')
 
 <script src="{{ mix('js/app.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
 <script src="{{ asset('js/aos.js') }}"></script>
 <script>
     AOS.init({

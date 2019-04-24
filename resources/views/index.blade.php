@@ -44,7 +44,7 @@
     <div class="section__info bg__light-blue">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7" data-aos="fade-right">
+                <div class="col-lg-6" data-aos="fade-right">
                     <h3 class="heading heading--underlined heading--left heading--white">The Vel<img src="{{ asset('images/icon.png') }}" class="icon" alt="->">way
                     </h3>
 

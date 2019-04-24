@@ -16,6 +16,22 @@ section {
 .section__info {
   padding-top: 80px;
   padding-bottom: 80px;
+
+  h3 {
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 0;
+  }
+
+  img.icon {
+    padding-left: 6px;
+    padding-right: 6px;
+    height: 30px;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }
 
 .section__3-column {
