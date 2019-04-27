@@ -7,10 +7,21 @@ body {
   overflow-x: hidden;
 }
 
-.header-bg {
-  padding-top: 10px;
+//.header-bg {
+//  padding-top: 10px;
+//  width: 100%;
+//  height: calc(100vh - 70px);
+//}
+
+.video-container {
   width: 100%;
-  height: calc(100vh - 70px);
+  text-align: center;
+  padding-top: 20px;
+
+  video {
+    max-width: 1280px;
+    height: auto;
+  }
 }
 
 a:hover{
