@@ -38,7 +38,8 @@
 <script src="{{ asset('js/aos.js') }}"></script>
 <script>
     AOS.init({
-        duration: 1000
+        duration: 1000,
+        once: true
     });
 </script>
 
