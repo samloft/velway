@@ -21,7 +21,7 @@ $('.contact--floated--expanded').on('mouseleave', function () {
     // $('.contact--floated').show();
 });
 
-$('.video-container').parent().click(function () {
+$('.video-container').on('click', function () {
     var video = $('video'),
         play = $('.play');
 
