@@ -20,3 +20,16 @@ $('.contact--floated--expanded').on('mouseleave', function () {
 
     // $('.contact--floated').show();
 });
+
+$('.video-container').parent().click(function () {
+    var video = $('video'),
+        play = $('.play');
+
+    if (video.get(0).paused) {
+        video.get(0).play();
+        play.fadeOut();
+    } else {
+        video.get(0).pause();
+        play.fadeIn();
+    }
+});

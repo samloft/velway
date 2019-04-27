@@ -5,9 +5,10 @@
 
 @section('content')
     <div class="video-container">
-        <video controls="controls">
-            <source src="{{ asset('videos/home.mp4') }}" type="video/mp4">
+        <video id="video">
+            <source src="{{ asset('videos/home.mp4') }}#t=3" type="video/mp4">
         </video>
+        <div class="play"><button class="btn btn-primary"><i class="fas fa-play"></i> Click to play</button></div>
     </div>
 
     <div class="container">
