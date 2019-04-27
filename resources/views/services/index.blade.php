@@ -114,17 +114,17 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-2">
-                    <img class="img-fluid" src="{{ asset('images/dda.png') }}" alt="DDA">
-                </div>
-                <div class="col">
-                    <h4>{{ __('DDA') }}</h4>
-                    <p>
-                        {{ __('Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet maorbi accumsan ipsum velit.') }}
-                    </p>
-                </div>
-            </div>
+{{--            <div class="row">--}}
+{{--                <div class="col-2">--}}
+{{--                    <img class="img-fluid" src="{{ asset('images/dda.png') }}" alt="DDA">--}}
+{{--                </div>--}}
+{{--                <div class="col">--}}
+{{--                    <h4>{{ __('DDA') }}</h4>--}}
+{{--                    <p>--}}
+{{--                        {{ __('Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet maorbi accumsan ipsum velit.') }}--}}
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
         </div>
     </section>
 @endsection
