@@ -21,14 +21,14 @@
                         </p>
                     </div>
                     <div class="col-lg-6">
-                        <div class="card__quote">
+                        <div class="card__quote font-italic">
                             <p>
                                 {{ __('“Its is our goal to be the best national provider of property and compliance services,
                                 providing an uncomplicated solutions whilst building and maintaining mutually dependent
                                 relationships with all stakeholders”') }}
                             </p>
                             <p>
-                                - Job Title<br>Name
+                                - {{ __('Director') }}<br>{{ __('Robin Harris') }}
                             </p>
                         </div>
                     </div>
@@ -46,7 +46,8 @@
                     <h2 class="heading heading--underlined heading--left heading--green">{{ __('Where to find us?') }}</h2>
 
                     <p class="mb-5">
-                        {{ __('Velway Group engineers and construction teams work across the country to design, build and maintain commercial properties on a nationwide basis. From operational bases in Wakefield, London, Swindon and Norwich Velway are able to deliver planned, preventative maintenance, reactive and emergency works as well as offer an in-house facilities management provision to clients’ requirements nationally.') }}
+                        {{ __('Velway operate nationally delivering property and compliance services across the country. From their centrally located head office in Tamworth and Support Hub in the North.
+                        We are able to deliver planned, reactive and emergency works as well as offer an in-house facilities management provision to meet our clients requirements') }}
                     </p>
 
                     <a href="{{ route('contact') }}">

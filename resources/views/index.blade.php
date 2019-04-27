@@ -70,7 +70,7 @@
                     </p>
                 </div>
                 <div class="col text-right" data-aos="zoom-in-left">
-                    <img class="m-200 img-fluid" src="{{ asset('images/the-velway.png') }}" alt="The Velway">
+                    <img class="m-200 img-fluid mt-5" src="{{ asset('images/the-velway.png') }}" alt="The Velway">
                 </div>
             </div>
         </div>

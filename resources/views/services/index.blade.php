@@ -29,7 +29,7 @@
                 <h4 class="heading heading--underlined heading--centered heading--dark-blue">{!! __('Planned<br>Maintenance') !!}</h4>
 
                 <p>
-                    {{ __('Cyclical and routine maintenance to Increase lifecycle longevity, ensure compliance or maintain warranties.') }}
+                    {{ __('Cyclical and routine maintenance to Increase lifecycle longevity, manage compliance or maintain warranties.') }}
                 </p>
             </div>
             <div class="col-lg-3" data-aos="fade-up">
@@ -38,7 +38,7 @@
                 <h4 class="heading heading--underlined heading--centered heading--dark-blue">{!! __('Risk Assessment<br>Management') !!}</h4>
 
                 <p>
-                    {{ __('Completion of all property related risk assessments and the management of all significant findings to make sure you are compliant.') }}
+                    {{ __('Completion of all property related risk assessments and the management of all significant findings to manage compliance.') }}
                 </p>
             </div>
             <div class="col-lg-3" data-aos="fade-left">
@@ -57,6 +57,11 @@
         <div class="container compliance">
             <h3 class="heading heading--underlined heading--left heading--dark-blue">{{ __('Compliance') }}</h3>
 
+            <p>
+                {{ __('Risk assessments form a critical and integral part of the management of any property and cover health and safety requirements within the workplace.
+                   Velway systems manage all risk assessments not only issuing instructions for completion but also ensure all significant findings are recorded, managed and documented') }}
+            </p>
+
             <div class="row mt-5">
                 <div class="col-2">
                     <img class="img-fluid" src="{{ asset('images/fire.png') }}" alt="Fire">
@@ -64,7 +69,8 @@
                 <div class="col">
                     <h4>{{ __('Fire') }}</h4>
                     <p>
-                        Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet maorbi accumsan ipsum velit.
+                        {{ __('Velway manage all elements of Fire Protection Alarm Systems, and Fire Risk Assessments.
+                        In line with the Regulatory Reform Order of 2005 which makes it a legal requirement to comply.') }}
                     </p>
                 </div>
             </div>
@@ -76,7 +82,8 @@
                 <div class="col">
                     <h4>{{ __('Water') }}</h4>
                     <p>
-                        {{ __('We manage all elements of legionella control from the L* risk assessment through to ensuring all significant findings are closed down, meaning all properties comply with the L8 Acop standards') }}
+                        {{ __('Velway work to manage the water safety solutions of our clients premises and assist in
+                        the fulfilment of the legal responsibilities relating to Legionella control as laid out in the HSE’s Approved Code of Practice ACoP L8 and Guidance HSG 274.') }}
                     </p>
                 </div>
             </div>
@@ -88,7 +95,8 @@
                 <div class="col">
                     <h4>{{ __('Asbestos') }}</h4>
                     <p>
-                        {{ __('Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet maorbi accumsan ipsum velit.') }}
+                        {{ __('Velway manage the risk of asbestos across any portfolio, working in conjunction with
+                        service partners to ensure a robust programme of surveying and management plans are in place') }}
                     </p>
                 </div>
             </div>
@@ -100,7 +108,8 @@
                 <div class="col">
                     <h4>{{ __('Health and Safety') }}</h4>
                     <p>
-                        {{ __('Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet maorbi accumsan ipsum velit.') }}
+                        {{ __('Velway complete all levels of Health and safety inspections across any sized portfolio,
+                        from void property inspections through to cyclical site audit inspections and full DDA audits.') }}
                     </p>
                 </div>
             </div>
