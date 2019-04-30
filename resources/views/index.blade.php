@@ -4,14 +4,25 @@
 @section('header.color', 'light-blue')
 
 @section('content')
-    <div class="video-container">
-        <video id="video">
-            <source src="{{ asset('videos/home.mp4') }}#t=3" type="video/mp4">
-        </video>
-        <div class="play"><button class="btn btn-primary"><i class="fas fa-play"></i> Click to play</button></div>
-    </div>
+    <div id="home-banner"></div>
 
     <div class="container">
+        <div class="video-container">
+            <div class="row h-100">
+                <div class="col">
+                    <video id="video" controls>
+{{--                        <source src="{{ asset('videos/home.mp4') }}#t=3" type="video/mp4">--}}
+                        <source src="{{ asset('videos/home.mp4') }}" type="video/mp4">
+                    </video>
+{{--                    <div class="play">--}}
+{{--                        <button class="btn btn-primary"><i class="fas fa-play"></i> Click to play</button>--}}
+{{--                    </div>--}}
+                </div>
+                <div class="col my-auto">
+                    <p>{{ __('Watch our video and see how Velway can solve all your problems') }}</p>
+                </div>
+            </div>
+        </div>
 
         <div class="container section__3-column">
             <div class="row">
@@ -52,10 +63,10 @@
         </div>
     </div>
 
-    <div class="section__info bg__light-blue">
+    <div class="section__info bg__dark-blue">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6" data-aos="fade-right">
+                <div class="col-lg-7" data-aos="fade-right">
                     <h3 class="heading heading--underlined heading--left heading--white">The Vel<img
                                 src="{{ asset('images/icon.png') }}" class="icon" alt="->">way
                     </h3>
@@ -71,7 +82,8 @@
                     </p>
                 </div>
                 <div class="col text-right" data-aos="zoom-in-left">
-                    <img class="m-200 img-fluid mt-5" src="{{ asset('images/the-velway.png') }}" alt="The Velway">
+                    <img class="m-200 img-fluid mt-5" src="{{ asset('images/the-velway.png') }}"
+                         alt="The Velway">
                 </div>
             </div>
         </div>

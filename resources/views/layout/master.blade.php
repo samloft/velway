@@ -16,23 +16,24 @@
 
 @include('layout.header')
 
-<div class="contact--floated">
-    <i class="fas fa-comment-dots"></i>
-</div>
+{{--<div class="contact--floated">--}}
+{{--    <i class="fas fa-comment-dots"></i>--}}
+{{--</div>--}}
 
-<div class="contact--floated--expanded">
-    <a href="TEL:{{ $company_details->telephone }}">
-        <i class="fas fa-phone"></i>
-    </a>
-    <a href="MAILTO:{{ $company_details->email }}">
-        <i class="far fa-envelope"></i>
-    </a>
-</div>
+{{--<div class="contact--floated--expanded">--}}
+{{--    <a href="TEL:{{ $company_details->telephone }}">--}}
+{{--        <i class="fas fa-phone"></i>--}}
+{{--    </a>--}}
+{{--    <a href="MAILTO:{{ $company_details->email }}">--}}
+{{--        <i class="far fa-envelope"></i>--}}
+{{--    </a>--}}
+{{--</div>--}}
 
 @yield('content')
 
 @include('layout.footer')
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.1/lottie.min.js" type="text/javascript"></script>
 <script src="{{ mix('js/app.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
 <script src="{{ asset('js/aos.js') }}"></script>

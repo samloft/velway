@@ -167,3 +167,37 @@ section {
     line-height: 25px;
   }
 }
+
+.video-container {
+  margin-top: 40px;
+  background-color: rgb(242, 242, 242);
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+
+  video {
+    max-width: 500px;
+    height: auto;
+  }
+
+  .play {
+    width:50%;
+    height:50%;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+  }
+
+  p {
+    padding: 42px;
+    text-align: left;
+    font-size: 32px;
+    color: $font-color;
+    font-weight: 600;
+  }
+}
