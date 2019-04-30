@@ -10,7 +10,7 @@
         <div class="video-container">
             <div class="row h-100">
                 <div class="col">
-                    <video id="video" controls>
+                    <video id="video" poster="{{ asset('images/video-poster.png') }}" controls>
 {{--                        <source src="{{ asset('videos/home.mp4') }}#t=3" type="video/mp4">--}}
                         <source src="{{ asset('videos/home.mp4') }}" type="video/mp4">
                     </video>
