@@ -4,6 +4,8 @@
 @section('header.color', 'light-blue')
 
 @section('content')
+    <div class="loader"></div>
+
     <div id="home-banner"></div>
 
     <div class="container">
@@ -152,11 +154,12 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
     <div class="container">
         <div class="row justify-content-md-center block__details">
             <div class="col">
-{{--                <div class="img-row">--}}
-{{--                    <img src="{{ asset('images/electrician.png') }}" alt="Electrician" data-aos="fade-right">--}}
-                    <img class="img-fluid" src="{{ asset('images/reactive-maintenance.png') }}" alt="Plumber" data-aos="fade-up">
-{{--                    <img src="{{ asset('images/heating.png') }}" alt="Engineer" data-aos="fade-left">--}}
-{{--                </div>--}}
+                {{--                <div class="img-row">--}}
+                {{--                    <img src="{{ asset('images/electrician.png') }}" alt="Electrician" data-aos="fade-right">--}}
+                <img class="img-fluid" src="{{ asset('images/reactive-maintenance.png') }}" alt="Plumber"
+                     data-aos="fade-up">
+                {{--                    <img src="{{ asset('images/heating.png') }}" alt="Engineer" data-aos="fade-left">--}}
+                {{--                </div>--}}
 
                 <h4 class="heading heading--underlined heading--centered heading--light-blue">
                     {{ __('Do you require a competent tradesperson or specialist contract?') }}

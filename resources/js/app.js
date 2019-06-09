@@ -1,5 +1,9 @@
 require('./bootstrap');
 
+$(function() {
+    $('.loader').fadeOut('slow');
+});
+
 var svgContainer = document.getElementById('home-banner');
 var animItem = bodymovin.loadAnimation({
     wrapper: svgContainer,
@@ -21,16 +25,3 @@ $('.contact--floated--expanded').on('mouseleave', function () {
         distance: '10px'
     }, 400);
 });
-
-// $('.video-container').on('click', function () {
-//     var video = $('video'),
-//         play = $('.play');
-//
-//     if (video.get(0).paused) {
-//         video.get(0).play();
-//         play.fadeOut();
-//     } else {
-//         video.get(0).pause();
-//         play.fadeIn();
-//     }
-// });
