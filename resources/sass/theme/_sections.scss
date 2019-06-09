@@ -23,6 +23,10 @@ section {
     padding-top: 0;
   }
 
+  img.img-fluid {
+    max-width: 400px;
+  }
+
   img.icon {
     padding-left: 6px;
     padding-right: 6px;
@@ -30,7 +34,7 @@ section {
   }
 
   p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -47,9 +51,9 @@ section {
     padding-left: 20px;
     padding-right: 20px;
 
-    p {
-      height: 100px;
-    }
+    //p {
+    //  height: 100px;
+    //}
   }
 
   button {
@@ -63,8 +67,9 @@ section {
   padding: 50px 20px 70px;
 
   img {
-    height: 130px;
-    margin: 20px;
+    margin-bottom: 50px;
+    //height: 250px;
+    //margin: 20px;
   }
 
   .heading--underlined::after {
@@ -86,10 +91,16 @@ section {
 }
 
 .section__customers {
-  padding-top: 70px;
+  font-size: 1.3rem;
+  padding-top: 20px;
   padding-bottom: 70px;
   text-align: center;
   background-color: rgb(203, 203, 203);
+  color: rgb(255, 255, 255);
+
+  .text-center {
+    padding-bottom: 20px;
+  }
 
   .row {
     margin-right: 0;
@@ -102,7 +113,7 @@ section {
 }
 
 .heading__curved {
-  background-color: rgba(52, 63, 79, 1.0);
+  background-color: $dark-blue;
   color: $white;
   border-bottom-left-radius: 15%;
   border-bottom-right-radius: 15%;
@@ -199,5 +210,13 @@ section {
     font-size: 32px;
     color: $font-color;
     font-weight: 600;
+  }
+}
+
+.section__services {
+  background-color: $light-green;
+
+  h4 {
+    color: $green;
   }
 }

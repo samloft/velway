@@ -36,6 +36,11 @@ h4 {
     margin-left: 20px;
   }
 
+  &--right:after {
+    left: 100%;
+    margin-right: 20px;
+  }
+
   &--dark-blue:after {
     border: 2px solid $dark-blue;
   }
