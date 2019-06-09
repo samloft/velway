@@ -17,6 +17,18 @@ nav {
     transform: translateX(-50%);
   }
 
+  @media(max-width: 33.9em) {
+    .navbar-collapse {
+      .active span::after {
+        width: 30% !important;
+      }
+
+      &:not(.active) a:hover::after {
+        width: 30% !important;
+      }
+    }
+  }
+
   .heading--light-blue {
     .active span::after {
       border: 2px solid $light-blue;
