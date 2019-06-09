@@ -1,7 +1,9 @@
 require('./bootstrap');
 
 $(function() {
-    $('.loader').fadeOut(500);
+    setTimeout(function(){
+        $('.loader').fadeOut('slow');
+    }, 1000);
 });
 
 var svgContainer = document.getElementById('home-banner');
