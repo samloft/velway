@@ -87,6 +87,8 @@ nav {
 
 .navbar-collapse {
   text-align: center;
+  margin-left: -30px !important;
+  margin-right: -30px !important;
 
   .navbar-nav {
     background-color: $white;
