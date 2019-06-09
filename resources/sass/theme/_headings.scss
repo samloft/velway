@@ -37,12 +37,15 @@ h4 {
   }
 
   &--right:after {
-    left: 100%;
-    margin-right: 20px;
+    left: 96%;
   }
 
-  &--dark-blue:after {
-    border: 2px solid $dark-blue;
+  &--dark-blue {
+    color: $dark-blue;
+
+    &:after {
+      border: 2px solid $dark-blue;
+    }
   }
 
   &--light-blue:after {
@@ -56,4 +59,8 @@ h4 {
   &--green:after {
     border: 2px solid $green;
   }
+}
+
+.color--dark-blue {
+  color: $dark-blue;
 }

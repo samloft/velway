@@ -119,6 +119,7 @@ section {
   border-bottom-right-radius: 15%;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .management__options {
@@ -219,4 +220,8 @@ section {
   h4 {
     color: $green;
   }
+}
+
+.section__img-text-info {
+  padding-bottom: 100px;
 }
