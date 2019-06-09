@@ -14,10 +14,11 @@
                         <h3 class="heading heading--underlined heading--left heading--white">{{ __('Compliance – Openness – Service – Mutual Dependency') }}</h3>
 
                         <p>
-                            {{ __('In the ever changing world of property management Velway is leading the way with a combined approach to not only manage the lifecycle longevity of your asset but also ensure compliance across your property portfolio.') }}
-                        </p>
-                        <p class="m-0">
-                            {{ __('Yes we use modern integrated systems and are embracing new technology such as the IoE but above all else we keepour service simple and user friendly built around 3 integrated levels of delivery – the Velway way!') }}
+                            {{ __('It is Velway’s goal to be the best national provider of
+                                property and compliance services, providing uncomplicated
+                                solutions and excellent customer service, whilst building
+                                and maintaining mutually dependent relationships with
+                                all stakeholders.') }}
                         </p>
                     </div>
                     <div class="col-lg-6">
@@ -36,9 +37,64 @@
             </div>
         </div>
 
-        <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="600" viewBox="0 1 100 300" preserveAspectRatio="none">
-            <path d="M-1 -10 C 00 0 10 600 100 0 Z"></path>
+        {{--        <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="600"--}}
+        {{--             viewBox="0 1 100 300" preserveAspectRatio="none">--}}
+        {{--            <path d="M-1 -10 C 00 0 10 600 100 0 Z"></path>--}}
+        {{--        </svg>--}}
+        <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" viewBox="0 1 100 300"
+             preserveAspectRatio="none" height="300">
+            <path d="M-10 -10 C 00 0 10 500 100 0 Z"></path>
         </svg>
+
+        <div class="section__services mb-5">
+            <div class="container">
+                <h5>{{ __('To enable Velway to deliver this service we have in place the following services -') }}</h5>
+
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h4>{{ __('Maintenance') }}</h4>
+
+                        <ul class="arrow-bullets">
+                            <li>{{ __('Reactive') }}</li>
+                            <li>{{ __('Planned') }}</li>
+                            <li>{{ __('Specialist') }}</li>
+                            <li>{{ __('Cleaning') }}</li>
+                            <li>{{ __('Security') }}</li>
+                            <li>{{ __('Grounds Maintenance') }}</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <h4>{{ __('Operations') }}</h4>
+
+                        <ul class="arrow-bullets">
+                            <li>{{ __('Facilities Management') }}</li>
+                            <li>{{ __('Helpdesk') }}</li>
+                            <li>{{ __('Supply Chain') }}</li>
+                            <li>{{ __('Procurement') }}</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <h4>{{ __('Project Management') }}</h4>
+
+                        <ul class="arrow-bullets">
+                            <li>{{ __('Electrical') }}</li>
+                            <li>{{ __('Mechanical') }}</li>
+                            <li>{{ __('Fabric') }}</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <h4>{{ __('Finance') }}</h4>
+
+                        <ul class="arrow-bullets">
+                            <li>{{ __('Accounting') }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="container mb-5">
             <div class="row justify-content-center align-items-center">

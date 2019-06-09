@@ -1,0 +1,14 @@
+ul.arrow-bullets {
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin: 0;
+    padding: 1px 0 0 18px;
+    list-style: none;
+    background-image: url("/images/bullet.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 8px;
+  }
+}
