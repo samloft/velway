@@ -75,3 +75,21 @@ nav {
 .navbar-light .navbar-nav .nav-link {
   color: $font-color;
 }
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-button i {
+  color: $light-blue;
+  font-size: 2rem;
+}
+
+.navbar-collapse {
+  text-align: center;
+
+  .navbar-nav {
+    background-color: $white;
+    z-index: 999;
+  }
+}

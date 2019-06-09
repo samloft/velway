@@ -6,7 +6,9 @@
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-button">
+                <i class="fas fa-bars"></i>
+            </span>
         </button>
         <div class="collapse navbar-collapse heading--@yield('header.color')" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">

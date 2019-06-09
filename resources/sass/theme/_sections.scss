@@ -3,6 +3,12 @@ section {
   padding-bottom: 70px;
 }
 
+#home-banner {
+  svg {
+    z-index: -1;
+  }
+}
+
 .bg__light-blue {
   background-color: $light-blue;
   color: white;
@@ -194,6 +200,7 @@ section {
   video {
     max-width: 500px;
     height: auto;
+    z-index: 1;
   }
 
   .play {
