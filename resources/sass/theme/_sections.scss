@@ -29,7 +29,7 @@ section {
     padding-top: 0;
   }
 
-  img.img-fluid {
+  img {
     max-width: 400px;
   }
 
@@ -244,4 +244,10 @@ section {
 
 .section__img-text-info {
   padding-bottom: 100px;
+}
+
+.section__about {
+  svg {
+    z-index: -1;
+  }
 }
