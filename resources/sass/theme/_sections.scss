@@ -127,6 +127,14 @@ section {
   img {
     height: 45px;
   }
+
+  @media(max-width: 33.9em) {
+    padding-bottom: 20px;
+
+    img {
+      padding-bottom: 10px;
+    }
+  }
 }
 
 .heading__curved {
