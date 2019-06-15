@@ -4,6 +4,8 @@ $(function() {
     setTimeout(function(){
         $('.loader').fadeOut('slow');
     }, 1000);
+
+    $('#home-banner svg').removeAttr('style').attr('style', 'width: 100%; transform: translate3d(0px, 0px, 0px);');
 });
 
 var svgContainer = document.getElementById('home-banner');
