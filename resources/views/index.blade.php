@@ -11,12 +11,12 @@
     <div class="container">
         <div class="video-container">
             <div class="row">
-                <div class="col">
-                    <video id="video" poster="{{ asset('images/video-poster.png') }}" class="embed-responsive" controls>
+                <div class="col-lg-6">
+                    <video id="video" poster="{{ asset('images/video-poster.png') }}" class="embed-responsive w-100" controls>
                         <source src="{{ asset('videos/home.mp4') }}" type="video/mp4">
                     </video>
                 </div>
-                <div class="col my-auto">
+                <div class="col-lg-6 my-auto">
                     <p>{{ __('Watch our video and see how Velway can solve all your problems') }}</p>
                 </div>
             </div>
@@ -37,17 +37,17 @@
                         <p>
                             {{ __('Managing all in-house teams and service partners to ensure that works are completed to the clients’ satisfaction, with Health and Safety as a main driver, Velway manages works in line with current regulations for the safety of all stakeholders.') }}
                         </p>
-{{--                        <p>--}}
-{{--                            {{ __('All engineers and tradespeople provided by Velway are fully qualified and experienced in their chosen specialisms. Relationships have been built and developed with trusted partners to ensure excellence in service delivery to our clients at all times, meeting service levels and increasing 1st fix responses.') }}--}}
-{{--                        </p>--}}
+                        {{--                        <p>--}}
+                        {{--                            {{ __('All engineers and tradespeople provided by Velway are fully qualified and experienced in their chosen specialisms. Relationships have been built and developed with trusted partners to ensure excellence in service delivery to our clients at all times, meeting service levels and increasing 1st fix responses.') }}--}}
+                        {{--                        </p>--}}
                         <p>
                             {{ __('Yes, we use modern integrated systems and we are embracing new technology! However, as Customer Service is key to us, above all else we keep our service simple and user friendly, built around 3 integrated levels of delivery:
 RECORD, MANAGE and DOCUMENT – the Velway way!') }}
                         </p>
                     </div>
                     <div class="col text-right" data-aos="zoom-in-left">
-                        <img class="img-fluid" src="{{ asset('images/the-velway.png') }}"
-                             alt="The Velway">
+                            <img class="img-fluid w-100" src="{{ asset('images/the-velway.png') }}"
+                                 alt="The Velway">
                     </div>
                 </div>
             </div>
@@ -105,9 +105,9 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
                     {{ __('Do you require a competent tradesperson or specialist contractor?') }}
                 </h4>
 
-{{--                <p>--}}
-{{--                    {{ __('All engineers and tradespeople provided by Velway are fully qualified and experienced in their chosen specialisms. Relationships have been built and developed with subcontractors to ensure excellence in service delivery to our clients at all times, meeting service levels and increasing 1st fix responses.') }}--}}
-{{--                </p>--}}
+                {{--                <p>--}}
+                {{--                    {{ __('All engineers and tradespeople provided by Velway are fully qualified and experienced in their chosen specialisms. Relationships have been built and developed with subcontractors to ensure excellence in service delivery to our clients at all times, meeting service levels and increasing 1st fix responses.') }}--}}
+                {{--                </p>--}}
 
                 <a href="{{ route('services') }}">
                     <button class="btn btn-primary">{{ __('Find Out More') }}</button>

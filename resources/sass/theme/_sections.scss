@@ -42,6 +42,16 @@ section {
   p {
     font-size: 1rem;
   }
+
+  @media(max-width: 33.9em) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    img {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
 }
 
 .section__3-column {
@@ -65,6 +75,11 @@ section {
   button {
     font-size: 12px;
     letter-spacing: 1px;
+  }
+
+  @media(max-width: 33.9em) {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
@@ -226,6 +241,17 @@ section {
     font-size: 32px;
     color: $font-color;
     font-weight: 400;
+  }
+
+  @media(max-width: 33.9em) {
+    margin-top: 20px;
+    padding: 10px;
+
+    P {
+      padding: 10px 10px 0;
+      text-align: center;
+      font-size: 24px;
+    }
   }
 }
 
