@@ -17,6 +17,12 @@ nav {
     transform: translateX(-50%);
   }
 
+  .navbar-collapse.show {
+    z-index: 999 !important;
+    transform-style: preserve-3d;
+    transform: translate3d(0, 0, 10px) !important;
+  }
+
   @media(max-width: 33.9em) {
     .navbar-collapse {
       .active span::after {
@@ -28,59 +34,59 @@ nav {
       }
     }
   }
+}
 
-  .heading--light-blue {
-    .active span::after {
-      border: 2px solid $light-blue;
-    }
-
-    .nav-item:not(.active) a:hover::after {
-      border: 2px solid $light-blue;
-    }
+.heading--light-blue {
+  .active span::after {
+    border: 2px solid $light-blue;
   }
 
-  .heading--dark-blue {
-    .active span::after {
-      border: 2px solid $dark-blue;
-    }
+  .nav-item:not(.active) a:hover::after {
+    border: 2px solid $light-blue;
+  }
+}
 
-    .nav-item:not(.active) a:hover::after {
-      border: 2px solid $dark-blue;
-    }
+.heading--dark-blue {
+  .active span::after {
+    border: 2px solid $dark-blue;
   }
 
-  .heading--green {
-    .active span::after {
-      border: 2px solid $green;
-    }
+  .nav-item:not(.active) a:hover::after {
+    border: 2px solid $dark-blue;
+  }
+}
 
-    .nav-item:not(.active) a:hover::after {
-      border: 2px solid $green;
-    }
+.heading--green {
+  .active span::after {
+    border: 2px solid $green;
   }
 
-  .nav-item {
-    padding-top: 4px;
+  .nav-item:not(.active) a:hover::after {
+    border: 2px solid $green;
+  }
+}
 
-    .nav-link {
-      color: $font-color;
-      padding-left: 1rem !important;
-      padding-right: 1rem !important;
-      position: relative;
-    }
+.nav-item {
+  padding-top: 4px;
 
-    &:not(.active) a:hover::after {
-      left: 50%;
-      right: 50%;
-      content: ' ';
-      display: block;
-      position: relative;
-      width: 100%;
-      //border: 2px solid $primary-color;
-      border-radius: 4px;
-      box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-      transform: translateX(-50%);
-    }
+  .nav-link {
+    color: $font-color;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    position: relative;
+  }
+
+  &:not(.active) a:hover::after {
+    left: 50%;
+    right: 50%;
+    content: ' ';
+    display: block;
+    position: relative;
+    width: 100%;
+    //border: 2px solid $primary-color;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    transform: translateX(-50%);
   }
 }
 

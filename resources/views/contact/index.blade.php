@@ -7,7 +7,7 @@
     <div class="contact--background">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 pr-5 contact--form">
+                <div class="col-lg-7 contact--form">
                     <h2 class="mb-5 mt-5">{{ __('Contact Us') }}</h2>
 
                     @include('layout.alerts')
@@ -51,7 +51,7 @@
                     </form>
                 </div>
 
-                <div class="col-lg-5 chat">
+                <div class="col-lg-5 chat pb-5">
                     <h2 class="heading heading--underlined heading--left heading--white">{{ __('Let\'s Chat?') }}</h2>
 
                     {!! $company_details->email ? '<span>Email: <a href="MAILTO:' . $company_details->email . '" class="link__dark">' . $company_details->email . '</a></span>' : '' !!}
