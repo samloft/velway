@@ -1,11 +1,13 @@
 require('./bootstrap');
 
-$(function() {
-    setTimeout(function(){
+$(function () {
+    setTimeout(function () {
         $('.loader').fadeOut('slow');
     }, 1000);
 
-    // $('#home-banner svg').removeAttr('style').attr('style', 'width: 100%; transform: translate3d(0px, 0px, 0px);');
+    if (isInternetExplorer()) {
+        $('#home-banner svg').removeAttr('style').attr('style', 'width: 100%; transform: translate3d(0px, 0px, 0px);');
+    }
 });
 
 var svgContainer = document.getElementById('home-banner');
@@ -29,3 +31,10 @@ $('.contact--floated--expanded').on('mouseleave', function () {
         distance: '10px'
     }, 400);
 });
+
+function isInternetExplorer() {
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf("MSIE ");
+
+    return msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./);
+}
