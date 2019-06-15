@@ -66,10 +66,6 @@ section {
   .block__info {
     padding-left: 20px;
     padding-right: 20px;
-
-    //p {
-    //  height: 100px;
-    //}
   }
 
   button {
@@ -141,6 +137,11 @@ section {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 100px;
+
+  @media(max-width: 33.9em) {
+    padding: 0;
+    margin-bottom: 30px;
+  }
 }
 
 .management__options {
@@ -274,6 +275,10 @@ section {
 
 .section__img-text-info {
   padding-bottom: 100px;
+
+  @media(max-width: 33.9em) {
+    padding-bottom: 30px;
+  }
 }
 
 .section__about {
