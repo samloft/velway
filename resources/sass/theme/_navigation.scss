@@ -19,8 +19,7 @@ nav {
 
   .navbar-collapse.show {
     z-index: 999 !important;
-    transform-style: preserve-3d;
-    transform: translate3d(0, 0, 10px) !important;
+    margin-top: 20px;
   }
 
   @media(max-width: 33.9em) {
