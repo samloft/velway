@@ -2,6 +2,10 @@ ul.arrow-bullets {
   padding: 0;
   margin: 0;
 
+  @media(max-width: 33.9rem) {
+    margin-bottom: 20px;
+  }
+
   li {
     margin: 0;
     padding: 1px 0 0 18px;

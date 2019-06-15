@@ -12,6 +12,13 @@
   color: $black;
   position: absolute;
   z-index:1;
+
+  @media(max-width: 33.9em) {
+    position: relative;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .news {
