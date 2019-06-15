@@ -13,12 +13,12 @@
                      alt="{{ $news->title }}">
                 <div class="card-body">
                     <div class="row">
-                        <div class="col">
+                        <div class="col-lg-10">
                             <h3 class="heading heading--underlined heading--left heading--light-blue pt-0">
                                 {{ $news->title }}
                             </h3>
                         </div>
-                        <div class="col text-right">
+                        <div class="col-lg-2 text-right">
                             <div class="pull-right">{{ \Carbon\Carbon::parse($news->created_at)->format('d/m/Y') }}</div>
                         </div>
                     </div>
