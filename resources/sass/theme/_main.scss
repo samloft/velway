@@ -78,4 +78,10 @@ a:hover{
   }
 }
 
+@media(max-width: 33.9em) {
+  .block__details img {
+    margin-bottom: 0 !important;
+  }
+}
+
 
