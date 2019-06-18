@@ -108,9 +108,9 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
                     {{ __('Do you require a competent tradesperson or specialist contractor?') }}
                 </h4>
 
-                {{--                <p>--}}
-                {{--                    {{ __('All engineers and tradespeople provided by Velway are fully qualified and experienced in their chosen specialisms. Relationships have been built and developed with subcontractors to ensure excellence in service delivery to our clients at all times, meeting service levels and increasing 1st fix responses.') }}--}}
-                {{--                </p>--}}
+                <p>
+                    {{ __('All engineers and tradespeople provided by Velway are fully qualified and experienced in their chosen specialisms. Relationships have been built and developed with subcontractors to ensure excellence in service delivery to our clients at all times, meeting service levels and increasing 1st fix responses.') }}
+                </p>
 
                 <a href="{{ route('services') }}">
                     <button class="btn btn-primary">{{ __('Find Out More') }}</button>
