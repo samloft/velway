@@ -22,13 +22,27 @@ nav {
   }
 
   @media(max-width: 33.9em) {
+    .navbar-collapse.collapse.show {
+      height: 100vh;
+    }
+    .navbar-nav {
+      height: 100vh;
+    }
+
     .navbar-collapse {
+      width: 100%;
+
+      .nav-item {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
       .active span::after {
-        width: 30% !important;
+        width: 20% !important;
       }
 
       &:not(.active) a:hover::after {
-        width: 30% !important;
+        width: 20% !important;
       }
     }
   }
