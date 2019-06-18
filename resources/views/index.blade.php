@@ -7,6 +7,9 @@
     <div class="loader"></div>
 
     <div id="home-banner"></div>
+    <div id="home-image">
+        <img class="img-fluid" src="{{ asset('images/home_image.png') }}" alt="{{ env('APP_NAME') }}">
+    </div>
 
     <div class="container">
         <div class="video-container">

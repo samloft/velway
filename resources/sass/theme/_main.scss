@@ -78,7 +78,19 @@ a:hover{
   }
 }
 
+#home-image {
+  display: none;
+}
+
 @media(max-width: 33.9em) {
+  #home-banner {
+    display: none;
+  }
+
+  #home-image {
+    display: contents;
+  }
+
   .block__details img {
     margin-bottom: 0 !important;
   }
