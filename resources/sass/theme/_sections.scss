@@ -228,6 +228,10 @@ section {
   background-color: $dark-blue;
   color: $white;
 
+  @media(max-width: 33.9em) {
+    border-top-left-radius: 0%;
+  }
+
   span {
     display: block;
     color: rgba(248, 249, 248, 1.0);
