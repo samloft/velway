@@ -8,6 +8,10 @@ $(function () {
     if (isInternetExplorer()) {
         $('#home-banner svg').removeAttr('style').attr('style', 'width: 100%; transform: translate3d(0px, 0px, 0px);');
     }
+
+    if ($('#svg-mobile-check').css('display') === 'none') {
+        $("path").attr("d", "M-50 -10 C -10 10 20 600 140 0 Z");
+    }
 });
 
 var svgContainer = document.getElementById('home-banner');

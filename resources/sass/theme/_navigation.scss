@@ -110,9 +110,14 @@ nav {
   border: none;
 }
 
-.navbar-toggler-button i {
-  color: $light-blue;
-  font-size: 2rem;
+.navbar-toggler-icon svg {
+  fill: $light-blue;
+  //background: url('/images/menu.svg');
+  //font-size: 2rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: none !important;
 }
 
 .navbar-collapse {

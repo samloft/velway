@@ -336,3 +336,9 @@ p.mobile--centered {
     text-align: center !important;
   }
 }
+
+#svg-mobile-check {
+  @media(max-width: 33.9em) {
+    display: none;
+  }
+}
