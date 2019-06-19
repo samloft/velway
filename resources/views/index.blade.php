@@ -27,12 +27,12 @@
 
         <div class="section__info">
             <div class="container">
-                <h3 class="heading heading--underlined heading--left heading--light-blue">The Vel<img
-                            src="{{ asset('images/icon.png') }}" class="icon" alt="->">way
-                </h3>
-
                 <div class="row">
                     <div class="col-lg-6" data-aos="fade-right">
+                        <h3 class="heading heading--underlined heading--left heading--light-blue">The Vel<img
+                                    src="{{ asset('images/icon.png') }}" class="icon" alt="->">way
+                        </h3>
+
                         <p>
                             {{ __('In the ever-changing world of property management, Velway is leading the way with a combined approach, not only to manage the lifecycle longevity of your asset, but also to manage compliance across your property portfolio.') }}
                         </p>
@@ -48,7 +48,7 @@
 RECORD, MANAGE and DOCUMENT – the Velway way!') }}
                         </p>
                     </div>
-                    <div class="col text-right" data-aos="zoom-in-left">
+                    <div class="col text-right my-auto" data-aos="zoom-in-left">
                             <img class="img-fluid w-100" src="{{ asset('images/the-velway.png') }}"
                                  alt="The Velway">
                     </div>

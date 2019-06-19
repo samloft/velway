@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91497f7d-7958-4625-ae80-cae25a83cc8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/sass/theme/_sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/theme/_sections.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +26,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/sass/theme/_sections.scss">
+        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="720">
+              <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -62,6 +62,7 @@
       <find>curve</find>
       <find>path</find>
       <find>navbar-toggler-button</find>
+      <find>icon</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,7 +114,6 @@
         <option value="$PROJECT_DIR$/resources/sass/theme/_cards.scss" />
         <option value="$PROJECT_DIR$/resources/sass/theme/_lists.scss" />
         <option value="$PROJECT_DIR$/resources/sass/theme/_main.scss" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/services/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/theme/_headings.scss" />
         <option value="$PROJECT_DIR$/resources/views/about/index.blade.php" />
@@ -121,6 +121,7 @@
         <option value="$PROJECT_DIR$/resources/sass/theme/_navigation.scss" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/sass/theme/_sections.scss" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
       </list>
     </option>
   </component>
@@ -391,7 +392,7 @@
       <workItem from="1560761695767" duration="29000" />
       <workItem from="1560879745507" duration="1207000" />
       <workItem from="1560928964227" duration="66000" />
-      <workItem from="1560963549484" duration="4157000" />
+      <workItem from="1560963549484" duration="4396000" />
     </task>
     <task id="LOCAL-00001" summary="Updated layout &amp; styling on home page as requested.">
       <created>1560083710981</created>
@@ -418,7 +419,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120091000" />
+    <option name="totallyTimeSpent" value="120330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -733,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">
@@ -789,8 +783,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/theme/_sections.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="343">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
         </state>
       </provider>
     </entry>
