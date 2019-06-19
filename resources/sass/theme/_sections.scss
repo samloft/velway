@@ -37,6 +37,10 @@ section {
     padding-left: 6px;
     padding-right: 6px;
     height: 30px;
+
+    @media(max-width: 33.9em) {
+      height: 70px;
+    }
   }
 
   p {
