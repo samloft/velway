@@ -20,7 +20,7 @@
     <div class="container">
         <div class="section__img-text-info">
             <div class="row">
-                <div class="col-lg-6 text-center my-auto order-first">
+                <div class="col-lg-6 text-center my-auto order-first__mobile">
                     <img class="img-fluid" src="{{ asset('images/reactive-maintenance.png') }}"
                          alt="Reactive Maintenance">
 
@@ -51,7 +51,7 @@
                         longevity, manage compliance or maintain warranties.') }}
                     </p>
                 </div>
-                <div class="col-lg-6 text-right my-auto order-first">
+                <div class="col-lg-6 text-right my-auto order-first__mobile">
                     <img class="img-fluid" src="{{ asset('images/planned-maintenance.png') }}"
                          alt="Planned Maintenance">
                 </div>
@@ -61,7 +61,7 @@
 
     <div class="bg__dark-blue pt-5">
         <div class="container">
-            <div class="section__img-text-info order-first">
+            <div class="section__img-text-info order-first__mobile">
                 <div class="row">
                     <div class="col-lg-6 my-auto">
                         <img class="img-fluid" src="{{ asset('images/M_E_asset_surveys.png') }}"
@@ -94,7 +94,7 @@
                                 we make easily accessible on any web-enabled device.') }}
                         </p>
                     </div>
-                    <div class="col-lg-6 text-right my-auto order-first">
+                    <div class="col-lg-6 text-right my-auto order-first__mobile">
                         <img class="img-fluid" src="{{ asset('images/velway-portal.png') }}" alt="Velway Portal">
                     </div>
                 </div>
@@ -105,7 +105,7 @@
     <div class="container mt-5">
         <div class="section__img-text-info">
             <div class="row">
-                <div class="col-lg-6 text-left my-auto order-first">
+                <div class="col-lg-6 text-left my-auto order-first__mobile">
                     <img class="img-fluid" src="{{ asset('images/routine-building-inspection.png') }}"
                          alt="Routine Building Inspection">
                 </div>
@@ -139,7 +139,7 @@
                         when we have received the relevant paperwork.') }}
                     </p>
                 </div>
-                <div class="col-lg-6 text-center my-auto order-first">
+                <div class="col-lg-6 text-center my-auto order-first__mobile">
                     <img class="img-fluid mb-3" src="{{ asset('images/invoicing.png') }}" alt="Invoicing">
                     <h3 class="heading--dark-blue">{{ __('One Invoice - One Payment') }}</h3>
                 </div>

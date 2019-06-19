@@ -346,3 +346,10 @@ p.mobile--centered {
     display: none;
   }
 }
+
+.order-first__mobile {
+  @media(max-width: 33.9em) {
+    order: -1;
+    text-align: center !important;
+  }
+}
