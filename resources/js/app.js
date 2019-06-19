@@ -10,7 +10,7 @@ $(function () {
     }
 
     if ($('#svg-mobile-check').css('display') === 'none') {
-        $("path").attr("d", "M-50 -10 C -10 10 20 600 140 0 Z");
+        $("#curveDownColor path").attr("d", "M-50 -10 C -10 10 20 600 140 0 Z");
     }
 });
 
