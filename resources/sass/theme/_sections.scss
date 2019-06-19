@@ -44,8 +44,8 @@ section {
   }
 
   @media(max-width: 33.9em) {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
     img {
       padding-top: 20px;
@@ -74,8 +74,8 @@ section {
   }
 
   @media(max-width: 33.9em) {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -90,7 +90,7 @@ section {
   }
 
   .heading--underlined::after {
-      width: 80px !important;
+    width: 80px !important;
   }
 
   p {
@@ -147,8 +147,11 @@ section {
   margin-bottom: 100px;
 
   @media(max-width: 33.9em) {
+    border: 0;
     padding: 0;
-    margin-bottom: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 50px;
   }
 }
 
@@ -207,7 +210,7 @@ section {
     max-width: 350px;
 
     @media(max-width: 33.9rem) {
-        margin-top: 40px !important;
+      margin-top: 40px !important;
       padding-right: 20px;
     }
   }
@@ -229,7 +232,7 @@ section {
   color: $white;
 
   @media(max-width: 33.9em) {
-    border-top-left-radius: 0%;
+    border-top-left-radius: 0;
   }
 
   span {
@@ -253,15 +256,15 @@ section {
   }
 
   .play {
-    width:50%;
-    height:50%;
-    position:absolute;
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
-    margin:auto;
-    background-size:contain;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-size: contain;
     background-position: center;
   }
 
@@ -325,5 +328,11 @@ section {
 
   @media(max-width: 33.9em) {
     padding-right: 20px;
+  }
+}
+
+p.mobile--centered {
+  @media(max-width: 33.9em) {
+    text-align: center !important;
   }
 }

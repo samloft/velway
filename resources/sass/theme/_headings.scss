@@ -59,6 +59,20 @@ h4 {
   &--green:after {
     border: 2px solid $green;
   }
+
+  &--centered-mobile {
+    @media(max-width: 33.9em) {
+      text-align: center !important;
+      margin-top: 40px;
+
+      &:after {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        left: 50% !important;
+        right: 50% !important;
+      }
+    }
+  }
 }
 
 .color--dark-blue {
