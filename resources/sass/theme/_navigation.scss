@@ -27,23 +27,26 @@ nav {
     }
     .navbar-nav {
       height: 100vh;
+      padding-top: 50px;
     }
 
     .navbar-collapse {
       width: 100%;
 
       .nav-item {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        display: table;
+        text-align: center;
+        font-size: 18px;
+        margin: 10px auto;
       }
 
-      .active span::after {
-        width: 20% !important;
-      }
+      //.active span::after {
+      //  width: 20% !important;
+      //}
 
-      &:not(.active) a:hover::after {
-        width: 20% !important;
-      }
+      //&:not(.active) a:hover::after {
+      //  width: 20% !important;
+      //}
     }
   }
 }
