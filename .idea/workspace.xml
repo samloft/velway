@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/resources/sass/theme/_navigation.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="657">
-              <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
+              <caret line="121" column="14" selection-start-line="121" selection-start-column="14" selection-end-line="121" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -391,7 +391,7 @@
       <workItem from="1560761695767" duration="29000" />
       <workItem from="1560879745507" duration="1207000" />
       <workItem from="1560928964227" duration="66000" />
-      <workItem from="1560963549484" duration="3099000" />
+      <workItem from="1560963549484" duration="3263000" />
     </task>
     <task id="LOCAL-00001" summary="Updated layout &amp; styling on home page as requested.">
       <created>1560083710981</created>
@@ -418,7 +418,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119033000" />
+    <option name="totallyTimeSpent" value="119197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -790,7 +790,7 @@
     <entry file="file://$PROJECT_DIR$/resources/sass/theme/_navigation.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="657">
-          <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
+          <caret line="121" column="14" selection-start-line="121" selection-start-column="14" selection-end-line="121" selection-end-column="14" />
         </state>
       </provider>
     </entry>
