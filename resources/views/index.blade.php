@@ -40,9 +40,9 @@
                         <p>
                             {{ __('Managing all in-house teams and service partners to ensure that works are completed to the clients’ satisfaction, with Health and Safety as a main driver, Velway manages works in line with current regulations for the safety of all stakeholders.') }}
                         </p>
-                        {{--                        <p>--}}
-                        {{--                            {{ __('All engineers and tradespeople provided by Velway are fully qualified and experienced in their chosen specialisms. Relationships have been built and developed with trusted partners to ensure excellence in service delivery to our clients at all times, meeting service levels and increasing 1st fix responses.') }}--}}
-                        {{--                        </p>--}}
+                        <p>
+                            {{ __('All engineers and tradespeople provided by Velway are fully qualified and experienced in their chosen specialisms. Relationships have been built and developed with trusted partners to ensure excellence in service delivery to our clients at all times, meeting service levels and increasing 1st fix responses.') }}
+                        </p>
                         <p>
                             {{ __('Yes, we use modern integrated systems and we are embracing new technology! However, as Customer Service is key to us, above all else we keep our service simple and user friendly, built around 3 integrated levels of delivery:
 RECORD, MANAGE and DOCUMENT – the Velway way!') }}
@@ -66,7 +66,7 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
 
                         <h4 class="heading heading--underlined heading--centered heading--white">{{ __('Record') }}</h4>
 
-                        <p>
+                        <p class="pl-3 pr-3">
                             {{ __('Our helpdesk uses a CAFM system and processes, developed and improved over the last 5 years to accurately record all levels of work instruction
                                 - both reactive and planned - as well as statutory compliance and warranties.') }}
                         </p>
@@ -78,7 +78,7 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
 
                         <h4 class="heading heading--underlined heading--centered heading--white">{{ __('Manage') }}</h4>
 
-                        <p>
+                        <p class="pl-3 pr-3">
                             {{ __('All works are managed through their lifecycle, initially through the helpdesk team then via our operations team, to ensure works are completed to the customers’ satisfaction, are delivered safely and compliance is managed. We ensure our clients are aware of the status of any works by centralising all communications and storing these
                                 on a fully auditable system.') }}
                         </p>
@@ -90,7 +90,7 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
 
                         <h4 class="heading heading--underlined heading--centered heading--white">{{ __('Document') }}</h4>
 
-                        <p>{{ __('All documentation is centrally stored on our unique Velway Portal. Clients are given easy 24/7 access via any
+                        <p class="pl-3 pr-3">{{ __('All documentation is centrally stored on our unique Velway Portal. Clients are given easy 24/7 access via any
                                 web-enabled device. Alternatively, Velway can provide the documentation in any format our clients wish.') }}</p>
                     </div>
                 </div>
@@ -108,9 +108,9 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
                     {{ __('Do you require a competent tradesperson or specialist contractor?') }}
                 </h4>
 
-                <p>
-                    {{ __('All engineers and tradespeople provided by Velway are fully qualified and experienced in their chosen specialisms. Relationships have been built and developed with subcontractors to ensure excellence in service delivery to our clients at all times, meeting service levels and increasing 1st fix responses.') }}
-                </p>
+{{--                <p>--}}
+{{--                    {{ __('All engineers and tradespeople provided by Velway are fully qualified and experienced in their chosen specialisms. Relationships have been built and developed with subcontractors to ensure excellence in service delivery to our clients at all times, meeting service levels and increasing 1st fix responses.') }}--}}
+{{--                </p>--}}
 
                 <a href="{{ route('services') }}">
                     <button class="btn btn-primary">{{ __('Find Out More') }}</button>
