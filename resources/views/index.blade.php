@@ -15,7 +15,8 @@
         <div class="video-container">
             <div class="row">
                 <div class="col-lg-6">
-                    <video id="video" poster="{{ asset('images/video-poster.png') }}" class="embed-responsive w-100" controls>
+                    <video id="video" poster="{{ asset('images/video-poster.png') }}" class="embed-responsive w-100"
+                           controls>
                         <source src="{{ asset('videos/home.mp4') }}" type="video/mp4">
                     </video>
                 </div>
@@ -49,8 +50,8 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
                         </p>
                     </div>
                     <div class="col text-right my-auto" data-aos="zoom-in-left">
-                            <img class="img-fluid w-100" src="{{ asset('images/the-velway.png') }}"
-                                 alt="The Velway">
+                        <img class="img-fluid w-100" src="{{ asset('images/the-velway.png') }}"
+                             alt="The Velway">
                     </div>
                 </div>
             </div>
@@ -108,9 +109,9 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
                     {{ __('Do you require a competent tradesperson or specialist contractor?') }}
                 </h4>
 
-{{--                <p>--}}
-{{--                    {{ __('All engineers and tradespeople provided by Velway are fully qualified and experienced in their chosen specialisms. Relationships have been built and developed with subcontractors to ensure excellence in service delivery to our clients at all times, meeting service levels and increasing 1st fix responses.') }}--}}
-{{--                </p>--}}
+                {{--                <p>--}}
+                {{--                    {{ __('All engineers and tradespeople provided by Velway are fully qualified and experienced in their chosen specialisms. Relationships have been built and developed with subcontractors to ensure excellence in service delivery to our clients at all times, meeting service levels and increasing 1st fix responses.') }}--}}
+                {{--                </p>--}}
 
                 <a href="{{ route('services') }}">
                     <button class="btn btn-primary">{{ __('Find Out More') }}</button>

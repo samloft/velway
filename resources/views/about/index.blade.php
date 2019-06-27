@@ -24,12 +24,14 @@
                     <div class="col-lg-6">
                         <div class="card__quote font-italic">
                             <p>
-                                {{ __('“Its is our goal to be the best national provider of property and compliance services,
-                                providing an uncomplicated solutions whilst building and maintaining mutually dependent
-                                relationships with all stakeholders”') }}
+                                {{ __('“Velway is the current Property Management company for the Scolmore Group.') }}
+                            </p>
+                            <p> {{ __('They cover all elements of our property management from reactive to planned maintenance whilst also centralising all our compliance.') }}
+                            </p>
+                            <p> {{ __('I have found them to be a very hard-working and highly organised with great communication skills, and I have always been very impressed with the way that the company has approached work. I highly recommend Velway as they always do a great job.”') }}
                             </p>
                             <p>
-                                - {{ __('Director') }}<br>{{ __('Robin Harris') }}
+                                - {{ __('Steve Taylor') }}<br>{{ __('Group Operations Director') }}
                             </p>
                         </div>
                     </div>
