@@ -31,7 +31,7 @@ class ContactController extends Controller
             'message' => 'required|min:10'
         ]);
 
-        $message = Mail::to('sam@devloft.co.uk')->send(new Contact($request));
+        $message = Mail::to('info@velway.co.uk')->send(new Contact($request));
 
         if ($message) {
             return back()->with('success', 'Your message has been sent, we will respond as soon as possible');
