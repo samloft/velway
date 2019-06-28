@@ -1,6 +1,6 @@
 @extends('layout.master')
 
-@section('page.title', 'We do something!')
+@section('page.title', 'Property & Compliance Management')
 @section('header.color', 'light-blue')
 
 @section('content')
