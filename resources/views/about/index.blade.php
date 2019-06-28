@@ -28,7 +28,9 @@
                             </p>
                             <p> {{ __('They cover all elements of our property management from reactive to planned maintenance whilst also centralising all our compliance.') }}
                             </p>
-                            <p> {{ __('I have found them to be a very hard-working and highly organised with great communication skills, and I have always been very impressed with the way that the company has approached work. I highly recommend Velway as they always do a great job.”') }}
+                            <p> {{ __('I have found them to be a very hard-working and highly organised with great communication skills, and I have always been very impressed with the way that the company has approached work.
+
+I highly recommend Velway as they always do a great job.”') }}
                             </p>
                             <p>
                                 - {{ __('Steve Taylor') }}<br>{{ __('Group Operations Director') }}
@@ -101,7 +103,7 @@
                     <h2 class="heading heading--underlined heading--left heading--green">{{ __('Where to find us?') }}</h2>
 
                     <p class="mb-5">
-                        {{ __('Velway operate nationally delivering property and compliance services across the country. From their centrally located head office in Tamworth and Support Hub in the North.
+                        {{ __('Velway operates nationally delivering property and compliance services across the country. From our centrally located head office in Tamworth and Support Hub in the North.
                         We are able to deliver planned, reactive and emergency works as well as offer an in-house facilities management provision to meet our clients requirements') }}
                     </p>
 

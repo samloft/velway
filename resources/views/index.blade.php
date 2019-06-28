@@ -15,8 +15,7 @@
         <div class="video-container">
             <div class="row">
                 <div class="col-lg-6">
-                    <video id="video" poster="{{ asset('images/video-poster.png') }}" class="embed-responsive w-100"
-                           controls>
+                    <video id="video" poster="{{ asset('images/video-poster.png') }}" class="embed-responsive w-100" controls>
                         <source src="{{ asset('videos/home.mp4') }}" type="video/mp4">
                     </video>
                 </div>
@@ -42,7 +41,7 @@
                             {{ __('Managing all in-house teams and service partners to ensure that works are completed to the clients’ satisfaction, with Health and Safety as a main driver, Velway manages works in line with current regulations for the safety of all stakeholders.') }}
                         </p>
                         <p>
-                            {{ __('All engineers and tradespeople provided by Velway are fully qualified and experienced in their chosen specialisms. Relationships have been built and developed with trusted partners to ensure excellence in service delivery to our clients at all times, meeting service levels and increasing 1st fix responses.') }}
+                            {{ __('All engineers and tradespeople provided by Velway are fully qualified and experienced in their chosen specialisms. Relationships have been built and developed with trusted partners to ensure excellence in service delivery to our clients at all times, meeting service levels and increasing first fix responses.') }}
                         </p>
                         <p>
                             {{ __('Yes, we use modern integrated systems and we are embracing new technology! However, as Customer Service is key to us, above all else we keep our service simple and user friendly, built around 3 integrated levels of delivery:

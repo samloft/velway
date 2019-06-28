@@ -10,7 +10,7 @@
 
             <p class="pl-3 pr-3">
                 {{ __('Velway works alongside in-house teams and service partners to deliver reactive and planned preventative maintenance nationally.
-                    Velway also calls upon an in-house Facilities Management team to ensure they meet all their clients requirements nationally.
+                    Velway also calls upon an in-house Facilities Management team to ensure they meet all their clients requirements.
                     From a Work Management Helpdesk solution to a full property management service for any sized portfolio within any sector,
                     Velway provides it all.') }}
             </p>
@@ -34,7 +34,7 @@
                             fully qualified and experienced in their chosen specialisms.
                             Relationships have been built and developed with subcontractors
                             to ensure excellence in service delivery to our clients at all times,
-                            meeting service levels and increasing 1st fix responses.') }}
+                            meeting service levels and increasing first fix responses.') }}
                     </p>
                 </div>
             </div>
