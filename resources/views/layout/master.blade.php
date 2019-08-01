@@ -36,19 +36,6 @@
 
 @include('layout.header')
 
-{{--<div class="contact--floated">--}}
-{{--    <i class="fas fa-comment-dots"></i>--}}
-{{--</div>--}}
-
-{{--<div class="contact--floated--expanded">--}}
-{{--    <a href="TEL:{{ $company_details->telephone }}">--}}
-{{--        <i class="fas fa-phone"></i>--}}
-{{--    </a>--}}
-{{--    <a href="MAILTO:{{ $company_details->email }}">--}}
-{{--        <i class="far fa-envelope"></i>--}}
-{{--    </a>--}}
-{{--</div>--}}
-
 @yield('content')
 
 @include('layout.footer')

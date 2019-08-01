@@ -1,6 +1,5 @@
 @extends('layout.master')
 
-{{--@section('page.title', 'About Us')--}}
 @section('header.color', 'green')
 
 @section('content')
