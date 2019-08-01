@@ -1,6 +1,6 @@
 @extends('layout.master')
 
-@section('page.title', 'Services we provide')
+{{--@section('page.title', 'Services we provide')--}}
 @section('header.color', 'dark-blue')
 
 @section('content')

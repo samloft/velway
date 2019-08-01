@@ -16,7 +16,12 @@ class ContactController extends Controller
      */
     public function index()
     {
-        return view('contact.index');
+        $meta = [
+            'title' => 'Contact Us',
+            'description' => 'Velway Limited, Landsberg, Lichfield Road Ind. Est, Tamworth, Staffordshire, B79 7XB. Tel: 01827 300631 Email: info@velway.co.uk'
+        ];
+
+        return view('contact.index', compact('meta'));
     }
 
     /**
