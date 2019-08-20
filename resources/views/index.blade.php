@@ -124,7 +124,7 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
                 <img src="{{ asset('images/scolmore.png') }}" alt="customer">
             </div>
             <div class="col">
-                <img src="{{ asset('images/esp.png') }}" alt="customer">
+                <img src="{{ asset('images/national-care.png') }}" alt="customer">
             </div>
             <div class="col">
                 <img src="{{ asset('images/unicrimp.png') }}" alt="customer">
@@ -133,7 +133,7 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
                 <img src="{{ asset('images/sangamo.png') }}" alt="customer">
             </div>
             <div class="col">
-                <img src="{{ asset('images/ovia.png') }}" alt="customer">
+                <img src="{{ asset('images/esp.png') }}" alt="customer">
             </div>
         </div>
     </div>
