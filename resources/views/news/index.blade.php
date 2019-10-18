@@ -24,11 +24,12 @@
                                 </div>
                             </div>
                             <p class="card-text">
-                                {!! Str::limit($news->content, 500) !!}
-                                <a href="{{ route('news.show', ['slug' => $news->slug]) }}" class="light-blue">
-                                    {{ __('[Read More]') }}
-                                </a>
+                                {!! Str::limit(strip_tags($news->content), 500) !!}
                             </p>
+
+                            <a href="{{ route('news.show', ['slug' => $news->slug]) }}" class="light-blue">
+                                {{ __('[Read More]') }}
+                            </a>
                         </div>
                     </div>
                 @endforeach
