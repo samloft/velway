@@ -12,13 +12,11 @@
                     <div class="col-lg-6">
                         <h3 class="heading heading--underlined heading--left heading--white">{{ __('Compliance – Openness – Service – Mutual Dependency') }}</h3>
 
-                        <p>
-                            {{ __('It is Velway’s goal to be the best national provider of
-                                property and compliance services, providing uncomplicated
-                                solutions and excellent customer service, whilst building
-                                and maintaining mutually dependent relationships with
-                                all stakeholders.') }}
+                        <p class="font-italic">
+                            {{ __('“Velway have put a system and processes in place which have helped us manage several areas of compliance.
+                            Their understanding of our requirements as well as their appreciation of the care sector has seen us gradually entrust more and more services to Velway.”') }}
                         </p>
+                        <span>-NCG’s National FM Jane Goodwin</span>
                     </div>
                     <div class="col-lg-6">
                         <div class="card__quote font-italic">

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="91497f7d-7958-4625-ae80-cae25a83cc8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -233,7 +234,8 @@
       <workItem from="1566292037149" duration="180000" />
       <workItem from="1566293655258" duration="678000" />
       <workItem from="1566395804400" duration="11000" />
-      <workItem from="1571394930212" duration="434000" />
+      <workItem from="1571394930212" duration="592000" />
+      <workItem from="1572430503955" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="Updated layout &amp; styling on home page as requested.">
       <created>1560083710981</created>
