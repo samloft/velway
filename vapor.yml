@@ -1,0 +1,10 @@
+id: 4679
+name: velway
+environments:
+    production:
+        memory: 1024
+        cli-memory: 512
+        build:
+            - 'composer install --no-dev'
+            - 'php artisan event:cache'
+            - 'npm ci && npm run prod && rm -rf node_modules'

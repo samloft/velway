@@ -11,7 +11,7 @@
 
     <title>{{ isset($meta) ? $meta['title'] : env('APP_NAME') . '-' }} @yield('page.title')</title>
 
-    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/aos.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -41,7 +41,7 @@
 @include('layout.footer')
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.1/lottie.min.js" type="text/javascript"></script>
-<script src="{{ mix('js/app.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
 <script src="{{ asset('js/aos.js') }}"></script>
 <script>
