@@ -3,10 +3,18 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Storage;
 use Str;
 
 class News extends Model
 {
+    public function getImageUrlAttribute()
+    {
+        return Storage::url('images/news/'.$this->image);
+        //dd(Storage::disk('local')->getDriver()->getAdapter()->getPathPrefix());
+        //return Storage::url('images/news/'.$this->image);
+    }
+
     /**
      * Return the news list, paginated to 10 per page.
      *
@@ -58,7 +66,7 @@ class News extends Model
     public static function store($news_details)
     {
         $slug = Str::slug($news_details->title);
-        $image_name = $slug . '.' . $news_details->image->getClientOriginalExtension();
+        $image_name = $slug.'.'.$news_details->image->getClientOriginalExtension();
 
         $news = [
             'slug' => $slug,
@@ -66,10 +74,11 @@ class News extends Model
             'content' => $news_details->content,
             'image' => $image_name,
             'created_at' => date('Y-m-d H:i:s'),
-            'updated_at' => date('Y-m-d H:i:s')
+            'updated_at' => date('Y-m-d H:i:s'),
         ];
 
-        $news_details->image->move(public_path('images/news'), $image_name);
+        //$news_details->image->move(public_path('images/news'), $image_name);
+        $news_details->file('image')->storeAs('images/news', $image_name);
 
         return (new News)->insert($news);
     }
@@ -88,12 +97,12 @@ class News extends Model
             'slug' => $slug,
             'title' => $news_details->title,
             'content' => $news_details->content,
-            'updated_at' => date('Y-m-d H:i:s')
+            'updated_at' => date('Y-m-d H:i:s'),
         ];
 
         if ($news_details->image) {
-            $image_name = $slug . '.' . $news_details->image->getClientOriginalExtension();
-            $news_details->image->move(public_path('images/news'), $image_name);
+            $image_name = $slug.'.'.$news_details->image->getClientOriginalExtension();
+            $news_details->file('image')->storeAs('images/news', $image_name);
 
             $news['image'] = $image_name;
         }
@@ -113,7 +122,7 @@ class News extends Model
         $deleted = (new News)->where('id', $id)->delete();
 
         if ($deleted) {
-            unlink(public_path('images/news/' . $news->image));
+            Storage::delete('/images/news/'.$news->image);
 
             return true;
         }

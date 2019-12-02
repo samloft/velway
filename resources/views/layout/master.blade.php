@@ -44,6 +44,8 @@
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
 <script src="{{ asset('js/aos.js') }}"></script>
+@yield('scripts')
+
 <script>
     AOS.init({
         duration: 1000,

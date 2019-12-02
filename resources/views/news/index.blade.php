@@ -10,7 +10,7 @@
             @if(count($news_posts) > 0)
                 @foreach($news_posts as $news)
                     <div class="card mb-3">
-                        <img class="card-img-top" src="{{ asset('images/news/' . $news->image) }}"
+                        <img class="card-img-top" src="{{ $news->imageurl }}"
                              alt="{{ $news->title }}">
                         <div class="card-body">
                             <div class="row">

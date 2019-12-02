@@ -14,14 +14,6 @@ $(function () {
     }
 });
 
-var svgContainer = document.getElementById('home-banner');
-var animItem = bodymovin.loadAnimation({
-    wrapper: svgContainer,
-    animType: 'svg',
-    loop: true,
-    path: '/images/home-animation.json'
-});
-
 $('.contact--floated').on('mouseover', function () {
     $('.contact--floated--expanded').show('slide', {
         direction: 'left',

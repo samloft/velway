@@ -14,7 +14,8 @@
         <div class="video-container">
             <div class="row">
                 <div class="col-lg-6">
-                    <video id="video" poster="{{ asset('images/video-poster.png') }}" class="embed-responsive w-100" controls>
+                    <video id="video" poster="{{ asset('images/video-poster.png') }}" class="embed-responsive w-100"
+                           controls>
                         <source src="{{ asset('videos/home.mp4') }}" type="video/mp4">
                     </video>
                 </div>
@@ -29,7 +30,7 @@
                 <div class="row">
                     <div class="col-lg-6" data-aos="fade-right">
                         <h3 class="heading heading--underlined heading--left heading--light-blue">The Vel<img
-                                    src="{{ asset('images/icon.png') }}" class="icon" alt="->">way
+                                src="{{ asset('images/icon.png') }}" class="icon" alt="->">way
                         </h3>
 
                         <p>
@@ -137,4 +138,17 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
             </div>
         </div>
     </div>
+@endsection
+
+@section('scripts')
+<script>
+    var svgContainer = document.getElementById('home-banner');
+
+    var animItem = bodymovin.loadAnimation({
+        wrapper: svgContainer,
+        animType: 'svg',
+        loop: true,
+        path: '{{ asset('/images/home-animation.json') }}'
+    });
+</script>
 @endsection
