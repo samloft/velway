@@ -100,8 +100,9 @@ I highly recommend Velway as they always do a great job.”') }}
                     <h2 class="heading heading--underlined heading--left heading--green">{{ __('Where to find us?') }}</h2>
 
                     <p class="mb-5">
-                        {{ __('Velway operates nationally delivering property and compliance services across the country. From our centrally located head office in Tamworth and Support Hub in the North.
-                        We are able to deliver planned, reactive and emergency works as well as offer an in-house facilities management provision to meet our clients requirements') }}
+                        {{ __('Velway operates nationally delivering property and compliance services across the country. From our head office based in the historic grounds of the 18th Century Nostell
+                        Priory just outside Wakefield, West Yorkshire and from our Support Hub centrally located in Tamworth. We are able to deliver planned, reactive and emergency works as well as offer an in-house
+                        facilities management provision to meet our clients requirement.') }}
                     </p>
 
                     <a href="{{ route('contact') }}">

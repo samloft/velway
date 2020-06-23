@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('auth.master')
 
 @section('content')
     <form method="POST" action="{{ route('password.update') }}">
