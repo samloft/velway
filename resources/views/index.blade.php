@@ -131,7 +131,7 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
                 <img src="{{ asset('images/rbh.png') }}" alt="customer">
             </div>
             <div class="col">
-                <img src="{{ asset('images/sangamo.png') }}" alt="customer">
+                <img src="{{ asset('images/Ideagen_logo.png') }}" alt="customer">
             </div>
             <div class="col">
                 <img src="{{ asset('images/william-blake.png') }}" alt="customer">
