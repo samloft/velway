@@ -22,7 +22,7 @@
             cookie-type="necessary" cookie-widget-id="354107ae-b56c-4fc8-8aee-04565bae5718"></script>
 
 
-    <script async type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-143509139-1"
+    <script async type="text/plain" src="https://www.googletagmanager.com/gtag/js?id=UA-143509139-1"
             cookie-type="analytics"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
