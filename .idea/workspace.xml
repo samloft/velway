@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91497f7d-7958-4625-ae80-cae25a83cc8f" name="Default Changelist" comment="Changed type to plain.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -298,7 +297,7 @@
       <workItem from="1603357588473" duration="211000" />
       <workItem from="1623921809371" duration="381000" />
       <workItem from="1631199876067" duration="724000" />
-      <workItem from="1632402867705" duration="419000" />
+      <workItem from="1632402867705" duration="470000" />
     </task>
     <task id="LOCAL-00001" summary="Updated layout &amp; styling on home page as requested.">
       <created>1560083710981</created>
