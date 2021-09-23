@@ -128,7 +128,7 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
                 <img src="{{ asset('images/national-care.png') }}" alt="customer">
             </div>
             <div class="col">
-                <img src="{{ asset('images/sgi-logo.png') }}" alt="customer">
+                <img src="{{ asset('images/sgi-logo.png') }}" alt="customer" style="max-height: 150px;">
             </div>
             <div class="col">
                 <img src="{{ asset('images/rbh.png') }}" alt="customer">
