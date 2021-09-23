@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91497f7d-7958-4625-ae80-cae25a83cc8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-idea.xml" afterDir="false" />
+    <list default="true" id="91497f7d-7958-4625-ae80-cae25a83cc8f" name="Default Changelist" comment="Changed type to plain.">
+      <change afterPath="$PROJECT_DIR$/public/images/sgi-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/velway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/velway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +73,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -195,6 +205,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -206,6 +217,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/images/news" />
     </key>
   </component>
@@ -285,7 +297,11 @@
       <workItem from="1592909748699" duration="599000" />
       <workItem from="1592917744452" duration="1092000" />
       <workItem from="1592981033196" duration="15000" />
-      <workItem from="1603271828870" duration="61000" />
+      <workItem from="1603271828870" duration="233000" />
+      <workItem from="1603357588473" duration="211000" />
+      <workItem from="1623921809371" duration="381000" />
+      <workItem from="1631199876067" duration="724000" />
+      <workItem from="1632402867705" duration="87000" />
     </task>
     <task id="LOCAL-00001" summary="Updated layout &amp; styling on home page as requested.">
       <created>1560083710981</created>
@@ -308,7 +324,28 @@
       <option name="project" value="LOCAL" />
       <updated>1560087269446</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removed customer quote as requested.">
+      <created>1623921945503</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623921945503</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added cookie banner">
+      <created>1631200102570</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631200102570</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changed type to plain.">
+      <created>1631200285308</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631200285308</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +368,9 @@
     <MESSAGE value="Updated layout &amp; styling on home page as requested." />
     <MESSAGE value="Updated layout &amp; styling on services page as requested." />
     <MESSAGE value="Updated layout &amp; styling on about page as requested." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated layout &amp; styling on about page as requested." />
+    <MESSAGE value="Removed customer quote as requested." />
+    <MESSAGE value="Added cookie banner" />
+    <MESSAGE value="Changed type to plain." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed type to plain." />
   </component>
 </project>
