@@ -6,6 +6,13 @@
             <a href="{{ route('about') }}">{{ ('About Us') }}</a> |
             <a href="{{ route('news') }}">{{ ('News') }}</a> |
             <a href="{{ route('contact') }}">{{ ('Contact Us') }}</a>
+
+            <div class="pt-3">
+                <a href="https://www.safecontractor.com/" target="_blank">
+                    <img src="{{ asset('images/sc.png') }}" alt="Sage Contractor"/>
+                </a>
+
+            </div>
         </div>
 
         <div class="contact__footer">
