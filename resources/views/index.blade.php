@@ -128,7 +128,7 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
                 <img src="{{ asset('images/national-care.png') }}" alt="customer">
             </div>
             <div class="col">
-                <img src="{{ asset('images/sgi-logo.png') }}" alt="customer" style="max-height: 75px;">
+                <img src="{{ asset('images/sgi-logo.png') }}" alt="customer" style="width: 200px;">
             </div>
             <div class="col">
                 <img src="{{ asset('images/rbh.png') }}" alt="customer">
@@ -139,7 +139,7 @@ RECORD, MANAGE and DOCUMENT – the Velway way!') }}
                 <img src="{{ asset('images/william-blake.png') }}" alt="customer">
             </div>
             <div class="col">
-                <img src="{{ asset('images/falcon-logo.png') }}" alt="customer">
+                <img src="{{ asset('images/falcon-logo.png') }}" alt="customer" style="width: 150px;">
             </div>
         </div>
     </div>
