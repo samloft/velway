@@ -18,23 +18,23 @@
 
     <link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">
 
-    <script type="text/javascript" src="https://app.cookie-widget.com/cookie-widget_min.js" id="cookie-widget-script"
-            cookie-type="necessary" cookie-widget-id="354107ae-b56c-4fc8-8aee-04565bae5718"></script>
+{{--    <script type="text/javascript" src="https://app.cookie-widget.com/cookie-widget_min.js" id="cookie-widget-script"--}}
+{{--            cookie-type="necessary" cookie-widget-id="354107ae-b56c-4fc8-8aee-04565bae5718"></script>--}}
 
 
-    <script async type="text/plain" src="https://www.googletagmanager.com/gtag/js?id=UA-143509139-1"
-            cookie-type="analytics"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+{{--    <script async type="text/plain" src="https://www.googletagmanager.com/gtag/js?id=UA-143509139-1"--}}
+{{--            cookie-type="analytics"></script>--}}
+{{--    <script>--}}
+{{--        window.dataLayer = window.dataLayer || [];--}}
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+{{--        function gtag() {--}}
+{{--            dataLayer.push(arguments);--}}
+{{--        }--}}
 
-        gtag('js', new Date());
+{{--        gtag('js', new Date());--}}
 
-        gtag('config', 'UA-143509139-1');
-    </script>
+{{--        gtag('config', 'UA-143509139-1');--}}
+{{--    </script>--}}
 
 </head>
 <body>
