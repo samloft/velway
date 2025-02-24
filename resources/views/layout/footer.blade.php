@@ -5,7 +5,7 @@
             <a href="{{ route('services') }}">{{ ('Services') }}</a> |
             <a href="{{ route('about') }}">{{ ('About Us') }}</a> |
             <a href="{{ route('news') }}">{{ ('News') }}</a> |
-            <a href="{{ route('contact') }}">{{ ('Contact Us') }}</a>
+            <a href="{{ route('contact') }}">{{ ('Contact Us') }}</a> |
             <a href="{{ asset('Velway Limited - Terms and Conditions of Sale 24.02.2025.pdf') }}">{{ ('Terms & Conditions') }}</a>
 
             <div class="pt-3">
